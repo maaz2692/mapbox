@@ -1,0 +1,134 @@
+[
+    {
+        "id": 14,
+        "name": "C1 - Toronto"
+    },
+    {
+        "id": 10,
+        "name": "C10 - Toronto"
+    },
+    {
+        "id": 23,
+        "name": "C11 - East York"
+    },
+    {
+        "id": 8,
+        "name": "C12 - North York"
+    },
+    {
+        "id": 4,
+        "name": "C13 - North York"
+    },
+    {
+        "id": 27,
+        "name": "C14 - North York"
+    },
+    {
+        "id": 2,
+        "name": "C15 - North York"
+    },
+    {
+        "id": 21,
+        "name": "C2 - Toronto"
+    },
+    {
+        "id": 20,
+        "name": "C3 - Toronto"
+    },
+    {
+        "id": 26,
+        "name": "C4 - Toronto"
+    },
+    {
+        "id": 17,
+        "name": "C6 - Toronto"
+    },
+    {
+        "id": 0,
+        "name": "C7 - Toronto"
+    },
+    {
+        "id": 13,
+        "name": "C8 - Toronto"
+    },
+    {
+        "id": 19,
+        "name": "C9 - Toronto"
+    },
+    {
+        "id": 15,
+        "name": "E1 - Toronto"
+    },
+    {
+        "id": 29,
+        "name": "E10 - Scarborough"
+    },
+    {
+        "id": 30,
+        "name": "E11 - Scarborough"
+    },
+    {
+        "id": 16,
+        "name": "E2 - Toronto"
+    },
+    {
+        "id": 3,
+        "name": "E3 - East York"
+    },
+    {
+        "id": 1,
+        "name": "E4 - Scarborough"
+    },
+    {
+        "id": 11,
+        "name": "E5 - Scarborough"
+    },
+    {
+        "id": 9,
+        "name": "E6 - Scarborough"
+    },
+    {
+        "id": 32,
+        "name": "E8 - Scarborough"
+    },
+    {
+        "id": 6,
+        "name": "E9 - Scarborough"
+    },
+    {
+        "id": 24,
+        "name": "W1 - Toronto"
+    },
+    {
+        "id": 25,
+        "name": "W2 - Toronto/York"
+    },
+    {
+        "id": 12,
+        "name": "W3 - Toronto/York"
+    },
+    {
+        "id": 31,
+        "name": "W4 - North York/York"
+    },
+    {
+        "id": 22,
+        "name": "W5 - North York"
+    },
+    {
+        "id": 7,
+        "name": "W6 - Etobicoke"
+    },
+    {
+        "id": 18,
+        "name": "W7 - Etobicoke"
+    },
+    {
+        "id": 5,
+        "name": "W8 - Etobicoke"
+    },
+    {
+        "id": 28,
+        "name": "W9 - Etobicoke"
+    }
+]

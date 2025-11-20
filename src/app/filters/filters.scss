@@ -1,0 +1,123 @@
+.dropdown-container {
+  border: 1px solid #ccc; /* Add a border */
+  border-radius: 4px; /* Optional: Add rounded corners */
+  padding: 8px;
+  width: 100%;
+  overflow: hidden;
+  max-height: 200px;
+
+  .label {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    // margin-bottom: 8px;
+    color: #0a1237;
+    @media (max-width: 1830px) {
+      font-size: 14px;
+    }
+    @media (max-width: 426px) {
+      padding-top: 0px;
+    }
+  }
+  img {
+    transition: transform 0.3s ease;
+  }
+  .custom-menu {
+    max-height: 300px;
+    overflow-y: auto;
+  }
+}
+::ng-deep .mat-mdc-menu-content {
+  padding-right: 18px !important;
+}
+::ng-deep .mat-mdc-menu-panel {
+  max-height: 320px !important;
+  overflow: hidden !important;
+}
+
+::ng-deep
+  .mdc-checkbox
+  .mdc-checkbox__native-control:enabled:focus:checked
+  ~ .mdc-checkbox__background,
+.mdc-checkbox
+  .mdc-checkbox__native-control:enabled:focus:indeterminate
+  ~ .mdc-checkbox__background {
+  border-color: rgba(25, 28, 64, 1) !important;
+  background-color: rgba(25, 28, 64, 1) !important;
+}
+::ng-deep
+  .mdc-checkbox
+  .mdc-checkbox__native-control:enabled:checked
+  ~ .mdc-checkbox__background,
+.mdc-checkbox
+  .mdc-checkbox__native-control:enabled:indeterminate
+  ~ .mdc-checkbox__background,
+.mdc-checkbox
+  .mdc-checkbox__native-control[data-indeterminate="true"]:enabled
+  ~ .mdc-checkbox__background {
+  border-color: rgba(25, 28, 64, 1) !important;
+  background-color: rgba(25, 28, 64, 1) !important;
+}
+
+::-webkit-scrollbar {
+  padding-right: 12px;
+  width: 12px;
+  height: 12px;
+  transform: translate(20px, 10px) !important ;
+}
+
+::-webkit-scrollbar-track {
+  // background: rgba(25, 28, 64, 1);
+  background: rgba(233, 233, 233, 1);
+
+  padding-right: 12px;
+  transform: translate(20px, 10px) !important;
+}
+
+::-webkit-scrollbar-thumb {
+  transform: translate(20px, 10px) !important;
+  padding-right: 12px;
+
+  background-color: rgba(25, 28, 64, 1);
+  border-radius: 6px;
+  border: 3px solid rgba(25, 28, 64, 1);
+}
+.search-dropdown-div {
+  padding: 10px 0px 0 10px;
+}
+
+::ng-deep .dropdown-search {
+  padding: 10px 0 10px 10px !important;
+  width: 100%;
+  background-color: #f5f5f5 !important;
+
+  border: 1px solid #acacac !important;
+  outline: none !important;
+  padding: 20px;
+  border-radius: 4px !important;
+  &::placeholder {
+    color: #acacac;
+  }
+}
+
+.scrollable-list {
+  display: flex;
+  flex-direction: column;
+  max-height: 200px; /* Adjust the max-height of the scrollable list */
+  overflow-y: auto; /* Enable vertical scroll only when necessary */
+}
+.mdc-label {
+  font-family: "Montserrat", sans-serif !important;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: left;
+}
+.button {
+  font-family: "Montserrat", sans-serif !important;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: left;
+}
