@@ -1,0 +1,288 @@
+
+<app-loader *ngIf="isLoading"></app-loader>
+
+<section class="search-projects-section">
+  <div class="search-project-outer-div">
+    <div class="filter-div">
+      <div class="project-search">
+        <div class="search-div input-outer-div">
+          <div class="input-div">
+            <input
+              type="search"
+              id="search"
+              placeholder="Search Projects"
+              (keyup.enter)="search()"
+              [(ngModel)]="params.search"
+            />
+          </div>
+        </div>
+        <div class="filters">
+          <div class="input-outer-div">
+            <div class="input-div">
+              <app-filters
+                [name]="'MLS Zone'"
+                [options]="mlsZones"
+                (selectionChange)="handleSelectionChangeMLSZone($event)"
+              >
+              </app-filters>
+            </div>
+          </div>
+          <div class="input-outer-div">
+            <div class="input-div">
+              <app-filters
+                [name]="'City/Area'"
+                [options]="cities"
+                [initialSelection]="citySelection"
+                (selectionChange)="handleSelectionChangeCity($event)"
+              >
+              </app-filters>
+            </div>
+          </div>
+          <div class="input-outer-div">
+            <div class="input-div">
+              <app-filters
+                [name]="'Developers'"
+                [options]="buildersAndDevelopers"
+                (selectionChange)="handleSelectionChangeDeveloper($event)"
+              >
+              </app-filters>
+            </div>
+          </div>
+          <div class="input-outer-div">
+            <div class="input-div">
+              <app-filters
+                [name]="'Property Type'"
+                [options]="types"
+                [initialSelection]="typeSelection"
+                (selectionChange)="handleSelectionChangeType($event)"
+              >
+              </app-filters>
+            </div>
+          </div>
+        </div>
+        <div class="buttons-container filter-button">
+          <button
+            class="hide-map-btn secondary-color button-normal"
+            (click)="resetFilters()"
+          >
+            <img src="../../assets/images/icons/filter.svg" alt="" />
+
+            Reset Filters
+          </button>
+        </div>
+      </div>
+      <div class="buttons-container close-button">
+        <button
+          class="hide-map-btn secondary-color button-normal"
+          (click)="closeMap()"
+        >
+          <ng-container *ngIf="closeMAP"> Open Map</ng-container>
+          <ng-container *ngIf="!closeMAP"> Close Map</ng-container>
+        </button>
+      </div>
+    </div>
+
+    <hr />
+    <div class="parallel-map-div">
+      <div
+        *ngIf="showCards"
+        class="cards-outer-div"
+        [ngClass]="{
+          'five-columns': closeMAP,
+          'three-columns': !closeMAP,
+          'no-scroll': noProjects,
+          'hide-filter-div': toggleDrawer,
+          'justify-content-space-between': !showMap
+        }"
+      >
+        <div
+          class="fav-container"
+          [ngClass]="{
+        'five-columns-fav': closeMAP, 
+        'three-columns-fav': !closeMAP,
+        
+      }"
+        >
+          <div class="total-project">Total Projects: {{ filteredProjects.length }}</div>
+          <div class="toggle">
+            <p>Show Favourites</p>
+            &nbsp; &nbsp;
+            <div
+              class="toggle-switch"
+              [class.checked]="isChecked"
+              (click)="toggleSwitch()"
+            >
+              <div class="slider" [class.checked]="isChecked"></div>
+            </div>
+          </div>
+        </div>
+
+        <div *ngIf="noProjects" class="error-div">
+          <img
+          *ngIf="projectAvaliable"
+          src="../../assets/images/icons/noAssignments.svg"
+          alt=""
+        />
+          <img
+            *ngIf="isChecked && !projectAvaliable"
+            src="../../assets/images/icons/noFavProject.svg"
+            alt=""
+          />
+          <img
+            *ngIf="!isChecked && !projectAvaliable"
+            src="../../assets/images/icons/noProjects.svg"
+            alt=""
+          />
+          <h4 *ngIf="projectAvaliable">
+            It looks like there are no available properties at the moment. Please check back later or explore other categories.          </h4>
+          
+            <h4 *ngIf="isChecked && !projectAvaliable">
+            You haven't marked any projects as favorites
+          </h4>
+
+          <h4 *ngIf="!isChecked && !projectAvaliable">
+            Nothing here but moose and maple leaves! Try expanding your search
+            or check out other categories.
+          </h4>
+        </div>
+
+        <ng-container *ngIf="isShimmerVisible">
+          <app-shimmer 
+            *ngFor="let card of cards"
+            [showShimmer]="isShimmerVisible"
+          ></app-shimmer>
+        </ng-container>
+        <ng-container
+          *ngFor="
+            let project of isZoom
+              ? cloneFilterProjects
+              : isChecked
+              ? favProjects
+              : filteredProjects
+          "
+        >
+          <app-project-cards
+            [project]="project"
+          ></app-project-cards>
+        </ng-container>
+      </div>
+
+      <div
+        class="filters-for-mob"
+        [ngClass]="showFilters ? 'show-filter-for-mob' : ''"
+      >
+        <div class="filter-header">
+          <div class="empty"></div>
+          <p class="filter-heading">Filters</p>
+          <div class="button">
+            <button (click)="showFilterDrawer()">
+              <mat-icon>close</mat-icon>
+            </button>
+          </div>
+        </div>
+        <hr />
+        <div class="filter-inputs">
+          <div class="search-div input-outer-div">
+            <div class="label primary-light-color">Search</div>
+            <div class="input-div">
+              <input
+                type="search"
+                id="search"
+                placeholder="Project Name or Developer"
+                (keyup.enter)="search()"
+                [(ngModel)]="params.search"
+              />
+            </div>
+          </div>
+          <div class="input-outer-div">
+            <app-filters
+              [name]="'MLS Zone'"
+              [options]="mlsZones"
+              (selectionChange)="handleSelectionChangeMLSZone($event)"
+            >
+            </app-filters>
+          </div>
+
+          <div class="input-outer-div">
+            <app-filters
+              [name]="'City/Area'"
+              [options]="cities"
+              [initialSelection]="citySelection"
+              (selectionChange)="handleSelectionChangeCity($event)"
+            >
+            </app-filters>
+          </div>
+          <div class="input-outer-div">
+            <app-filters
+              [name]="'Developers'"
+              [options]="buildersAndDevelopers"
+              (selectionChange)="handleSelectionChangeDeveloper($event)"
+            >
+            </app-filters>
+          </div>
+          <div class="input-outer-div">
+            <app-filters
+              [name]="'Property Type'"
+              [options]="types"
+              [initialSelection]="typeSelection"
+              (selectionChange)="handleSelectionChangeType($event)"
+            >
+            </app-filters>
+          </div>
+
+          <div class="filter-buttons">
+            <button
+              class="hide-map-btn secondary-color button-normal results-btn"
+              (click)="resetFilters()"
+            >
+              <img src="../../assets/images/icons/filter.svg" alt="" />
+
+              Reset Filters
+            </button>
+            <button
+              class="secondary-background-color button-normal results-btn"
+              (click)="viewResults()"
+            >
+              View Results
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div
+        class="map-div"
+        [ngClass]="{ 'hide-map-div': closeMAP, 'show-map-div': toggleDrawer }"
+      >
+        <button (click)="Drawer()" class="drawer-icon">
+          <img
+            [ngClass]="toggleDrawer ? 'rotateme' : ''"
+            src="../../assets/images/icons/drawer-left.svg"
+          />
+        </button>
+
+        <div id="map"></div>
+        <pre id="features"></pre>
+      </div>
+    </div>
+  </div>
+
+  <div *ngIf="showFooterButtons" class="footer-buttons">
+    <button
+      class="hide-map-btn filterButton secondary-color button-normal"
+      (click)="showFilterDrawer()"
+    >
+      <img src="../../assets/images/icons/filter.svg" alt="" />
+      Filters
+    </button>
+    <button
+      data-intro="Pinch to zoom  and zoom  of the areas. The properties on the left panel will automatically update based on the movement of map."
+      data-step="2"
+      data-position="top"
+      class="hide-map-btn mapButton secondary-color button-normal"
+      (click)="showMapResponsive()"
+    >
+      <ng-container *ngIf="!showCards">Close Map</ng-container>
+      <ng-container *ngIf="showCards">Open Map</ng-container>
+    </button>
+  </div>
+</section>

@@ -1,0 +1,59 @@
+<div class="dropdown-container">
+  <button
+    class="label"
+    mat-button
+    [matMenuTriggerFor]="menu"
+    #menuTrigger="matMenuTrigger"
+  >
+    {{ name }} &nbsp;
+    <span *ngIf="selectedOptions.length > 0"
+      >({{ selectedOptions.length }}) &nbsp;</span
+    >
+    <img
+      src="../../assets/images/icons/down-arrow.svg"
+      alt=""
+      [ngStyle]="{
+        transform: menuTrigger.menuOpen ? 'rotate(180deg)' : 'rotate(0deg)'
+      }"
+    />
+  </button>
+
+  <mat-menu #menu="matMenu" class="custom-menu">
+    <div
+      class="search-dropdown-div"
+      style="width: 100%"
+      (click)="$event.stopPropagation()"
+    >
+      <input
+        class="dropdown-search"
+        type="search"
+        placeholder="Search"
+        style="
+          padding: 10px;
+          width: 100%;
+          background-color: #f5f5f5;
+        "
+        (input)="filter($event.target.value)"
+        (click)="$event.stopPropagation()"
+      />
+    </div>
+    <button mat-menu-item (click)="toggleSelectAll(); $event.stopPropagation()">
+      <mat-checkbox></mat-checkbox>
+      {{ isAllSelected ? "Deselect All" : "Select All" }}
+    </button>
+    <mat-divider></mat-divider>
+    <div class="list">
+      <div class="scrollable-list" (click)="$event.stopPropagation()">
+        <mat-checkbox
+          style="padding-left: 14px"
+          *ngFor="let option of filteredOptions"
+          (change)="toggleSelection(option.id, option.name)"
+          (click)="$event.stopPropagation()"
+          [checked]="isSelected(option.id)"
+        >
+        {{ displayNameMap[option.name] || option.name }}
+        </mat-checkbox>
+      </div>
+    </div>
+  </mat-menu>
+</div>

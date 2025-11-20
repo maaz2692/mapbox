@@ -1,0 +1,36 @@
+<a
+  class="card-container"
+  [routerLink]="['/property-details', project.project_stub]"
+  [attr.href]="'/property-details/' + project.project_stub"
+  target="_self"
+  style="text-decoration: none; color: inherit; display: block;"
+>
+  <div style="display: flex; flex-direction: column;"> <!-- Wrap contents in a div to help layout -->
+    <img
+      [src]="project.project_image != '' ? project.project_image_600 ? project.project_image_600 : project.project_image : 'https://d30sfbm0bo4jxo.cloudfront.net/optimized/600/1721651184714-line-5-condos.jpeg'"
+      [alt]="project.information?.title"
+      class="background-image"
+      loading="lazy"
+    />
+    <div class="condo-card">
+      <div class="content-div">
+        <div class="card-heading white-color">
+          {{ project.information?.title ? project.information?.title : '' }}
+        </div>
+        <div class="card-location-text secondary-color">
+          {{ project.locality ? project.locality : '' }},
+          {{ project.province ? project.province : 'Ontario' }}
+        </div>
+        <div class="card-small-text white-color"></div>
+      </div>
+    </div>
+  </div>
+</a>
+<div class="fav-icon-div" (click)="FavClicked($event)">
+  <ng-container *ngIf="!fav">
+    <img src="../../assets/images/icons/not-fav.svg" loading="lazy" alt="Not Favorite"/>
+  </ng-container>
+  <ng-container *ngIf="fav">
+    <img src="../../assets/images/icons/fav-filled.svg" loading="lazy" alt="Favorite"/>
+  </ng-container>
+</div>

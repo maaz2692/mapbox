@@ -1,0 +1,2317 @@
+[
+     {
+        "information": {
+            "title": "Oaks at Six Mile Creek",
+            "category": "Townhouse",
+            "application_date": "42986",
+            "construction_status": "",
+            "completion_date": "NA",
+            "updated_date": "45505",
+            "master_project": "",
+            "replacement_project": "",
+            "avg_price": 748065,
+            "max_price": 799000,
+            "min_price": 699000
+        },
+        "description": {
+            "project_description": ""
+        },
+        "project_information": {
+            "geoJSON": {
+                "coordinates": [
+                    -79.0488169,
+                    42.8758901
+                ],
+                "type": "Point"
+            },
+            "street_address": "6 Prospect Point Road North",
+            "city": "Fort Erie",
+            "municipality": "Fort Erie",
+            "province": "",
+            "mls_zone": "",
+            "postal_code": "",
+            "ward": "",
+            "country": "Country"
+        },
+        "project_attributes": {
+            "crane_number": "0",
+            "site_area": "",
+            "storeys": "",
+            "underground_levels": ""
+        },
+        "units": {
+            "total_number_of_units": "30",
+            "building_units": "",
+            "affordable_units": "",
+            "residential_units": "",
+            "condo_units": "",
+            "freehold_units": ""
+        },
+        "developer": {
+            "name": "Blythwood Homes",
+            "logo": "",
+            "location": "",
+            "url": "Blythwood-Homes"
+        },
+        "details": {
+            "projectImageURLs": [
+                ""
+            ],
+            "news": [
+                {
+                    "_id": "670682968a167e45146ba94e",
+                    "Title": ""
+                }
+            ]
+        },
+        "ground_floor_area": {
+            "residential_gfa_sq_meters": "",
+            "office_gfa_sq_meters": "1615",
+            "commerical_gfa_sq_meters": "",
+            "industrial_gfa_sq_meters": "",
+            "retail_gfa_sq_meters": "",
+            "institutional_gfa_sq_meters": ""
+        },
+        "parking": {
+            "total_vehicular_parking": "",
+            "office_parking": "",
+            "residential_parking": "",
+            "industrial_parking": "",
+            "visitor_parking": "",
+            "institutional_other_parking": "",
+            "retail_parking": "",
+            "bike_parking": ""
+        },
+        "access_and_services": {
+            "road_access": "",
+            "mass_timber": "",
+            "municipal_water": "",
+            "municipal_sanitary_sewers": "",
+            "green_standards": "",
+            "leed_certified": "",
+            "passive_home_certified": "",
+            "other_septic": ""
+        },
+        "minimum_setbacks": {
+            "front_lot_line_direction": "",
+            "front_lot_line_existing": "",
+            "front_lot_line_proposed": "",
+            "side_lot_line1_direction": "",
+            "side_lot_line1_existing": "",
+            "side_lot_line1_proposed": "",
+            "rear_lot_line_direction": "",
+            "rear_lot_line_existing": "",
+            "rear_lot_line_proposed": "",
+            "side_lot_line2_direction": "",
+            "side_lot_line2_existing": "",
+            "side_lot_line2_proposed": ""
+        },
+        "applications": {
+            "submission_dates": "42986",
+            "devapp_urls": "",
+            "application_types": "",
+            "approval_status": "",
+            "approval_sub_status": "",
+            "application_nos": "",
+            "council_decision_urls": "",
+            "council_decision_dates": "",
+            "appeal_received_dates": "",
+            "mzo_nos": "",
+            "mzo_dates": "",
+            "olt_urls": "",
+            "olt_nos": "",
+            "olt_decision_dates": ""
+        },
+        "permits": {
+            "demolition_application_date": "",
+            "demolition_issue_date": "",
+            "demolition_closing_date": "",
+            "demolition_permit_number": "",
+            "shoring_application_date": "",
+            "shoring_issue_date": "",
+            "shoring_closing_date": "",
+            "shoring_permit_number": "",
+            "new_building_application_date": "",
+            "new_building_issue_date": "",
+            "new_building_closing_date": "",
+            "new_building_permit_number": ""
+        },
+        "forums": {
+            "forum_project": "",
+            "forum_real_estate": "",
+            "forum_transit": ""
+        },
+        "type": [
+            "Townhouse",
+            "Row"
+        ],
+        "_id": "670682968a167e45146ba94d",
+        "project_id": "11945",
+        "project_stub": "oaks-at-six-mile-creek-townhouse-fort-erie-11945",
+        "project_url": "Oaks at Six Mile Creek",
+        "project_image": "",
+        "project_image_300": "",
+        "project_image_600": "",
+        "project_gpt_description": "Discover the Oaks at Six Mile Creek, a premium townhouse development by Blythwood Homes, located at 6 Prospect Point Road North in the charming city of Fort Erie, Canada. Offering a perfect blend of modern living and serene surroundings, this sought-after community is ideal for those looking to enjoy the tranquility of suburban life without sacrificing convenience. Each townhouse is thoughtfully designed with high-quality finishes and spacious layouts, catering to both families and individuals. Enjoy easy access to local amenities, parks, and the stunning Niagara region, making Oaks at Six Mile Creek a perfect place to call home. Explore your dream lifestyle at this exquisite development today.",
+        "locality": "Fort Erie",
+        "isactive": true,
+        "__v": 0,
+        "pricing": {
+            "min_price": 699000,
+            "max_price": 799000,
+            "avg_price": 748065,
+            "currency": "CAD",
+            "last_updated": "2025-08-10T07:51:30.592Z"
+        }
+    },
+    {
+        "information": {
+            "title": "Orillia Urban Towns",
+            "category": "Townhouse",
+            "application_date": "44551",
+            "construction_status": "",
+            "completion_date": "NA",
+            "updated_date": "45505",
+            "master_project": "",
+            "replacement_project": "",
+            "avg_price": 980499,
+            "max_price": 981999,
+            "min_price": 978999
+        },
+        "description": {
+            "project_description": ""
+        },
+        "project_information": {
+            "geoJSON": {
+                "coordinates": [
+                    -79.4304762,
+                    44.6234731
+                ],
+                "type": "Point"
+            },
+            "street_address": "12 Fittons Road East",
+            "city": "Orillia",
+            "municipality": "Orillia",
+            "province": "",
+            "mls_zone": "",
+            "postal_code": "",
+            "ward": "",
+            "country": "Country"
+        },
+        "project_attributes": {
+            "crane_number": "0",
+            "site_area": "",
+            "storeys": "",
+            "underground_levels": ""
+        },
+        "units": {
+            "total_number_of_units": "2",
+            "building_units": "",
+            "affordable_units": "",
+            "residential_units": "",
+            "condo_units": "",
+            "freehold_units": ""
+        },
+        "developer": {
+            "name": "Gold Bricks Group Ltd.",
+            "logo": "",
+            "location": "",
+            "url": "Gold-Bricks-Group-Ltd."
+        },
+        "details": {
+            "projectImageURLs": [
+                ""
+            ],
+            "news": [
+                {
+                    "_id": "670682968a167e45146ba950",
+                    "Title": ""
+                }
+            ]
+        },
+        "ground_floor_area": {
+            "residential_gfa_sq_meters": "",
+            "office_gfa_sq_meters": "2424",
+            "commerical_gfa_sq_meters": "",
+            "industrial_gfa_sq_meters": "",
+            "retail_gfa_sq_meters": "",
+            "institutional_gfa_sq_meters": ""
+        },
+        "parking": {
+            "total_vehicular_parking": "",
+            "office_parking": "",
+            "residential_parking": "",
+            "industrial_parking": "",
+            "visitor_parking": "",
+            "institutional_other_parking": "",
+            "retail_parking": "",
+            "bike_parking": ""
+        },
+        "access_and_services": {
+            "road_access": "",
+            "mass_timber": "",
+            "municipal_water": "",
+            "municipal_sanitary_sewers": "",
+            "green_standards": "",
+            "leed_certified": "",
+            "passive_home_certified": "",
+            "other_septic": ""
+        },
+        "minimum_setbacks": {
+            "front_lot_line_direction": "",
+            "front_lot_line_existing": "",
+            "front_lot_line_proposed": "",
+            "side_lot_line1_direction": "",
+            "side_lot_line1_existing": "",
+            "side_lot_line1_proposed": "",
+            "rear_lot_line_direction": "",
+            "rear_lot_line_existing": "",
+            "rear_lot_line_proposed": "",
+            "side_lot_line2_direction": "",
+            "side_lot_line2_existing": "",
+            "side_lot_line2_proposed": ""
+        },
+        "applications": {
+            "submission_dates": "44551",
+            "devapp_urls": "",
+            "application_types": "",
+            "approval_status": "",
+            "approval_sub_status": "",
+            "application_nos": "",
+            "council_decision_urls": "",
+            "council_decision_dates": "",
+            "appeal_received_dates": "",
+            "mzo_nos": "",
+            "mzo_dates": "",
+            "olt_urls": "",
+            "olt_nos": "",
+            "olt_decision_dates": ""
+        },
+        "permits": {
+            "demolition_application_date": "",
+            "demolition_issue_date": "",
+            "demolition_closing_date": "",
+            "demolition_permit_number": "",
+            "shoring_application_date": "",
+            "shoring_issue_date": "",
+            "shoring_closing_date": "",
+            "shoring_permit_number": "",
+            "new_building_application_date": "",
+            "new_building_issue_date": "",
+            "new_building_closing_date": "",
+            "new_building_permit_number": ""
+        },
+        "forums": {
+            "forum_project": "",
+            "forum_real_estate": "",
+            "forum_transit": ""
+        },
+        "type": [
+            "Townhouse",
+            "Row"
+        ],
+        "_id": "670682968a167e45146ba94f",
+        "project_id": "14794",
+        "project_stub": "orillia-urban-towns-townhouse-orillia-14794",
+        "project_url": "Orillia Urban Towns",
+        "project_image": "https://condos-images.s3.ap-southeast-1.amazonaws.com/realnet/14794.webp",
+        "project_image_300": "",
+        "project_image_600": "",
+        "project_gpt_description": "Discover modern living at Orillia Urban Towns, a premium townhouse community located at 12 Fittons Road East in the picturesque city of Orillia, Canada. Expertly crafted by Gold Bricks Group Ltd., these contemporary townhomes offer a harmonious blend of style and comfort. Ideally situated in a vibrant neighborhood, Orillia Urban Towns provides residents with convenient access to local amenities, parks, and schools, making it the perfect choice for families and professionals alike. Experience the charm and tranquility of Orillia while enjoying the benefits of modern urban living. With its prime location and exceptional design, Orillia Urban Towns invites you to elevate your lifestyle. Visit today and find your new home in this thriving community.",
+        "locality": "Orillia",
+        "isactive": true,
+        "__v": 0,
+        "pricing": {
+            "min_price": 978999,
+            "max_price": 981999,
+            "avg_price": 980499,
+            "currency": "CAD",
+            "last_updated": "2025-08-10T07:51:30.907Z"
+        }
+    },
+    {
+        "information": {
+            "title": "Poplar Trails",
+            "category": "Townhouse",
+            "application_date": "45213",
+            "construction_status": "",
+            "completion_date": "NA",
+            "updated_date": "45505",
+            "master_project": "",
+            "replacement_project": "",
+            "avg_price": 739279,
+            "max_price": 799900,
+            "min_price": 679900
+        },
+        "description": {
+            "project_description": ""
+        },
+        "project_information": {
+            "geoJSON": {
+                "coordinates": [
+                    -80.2052602,
+                    44.4837952
+                ],
+                "type": "Point"
+            },
+            "street_address": "66 Kirby Avenue",
+            "city": "Collingwood",
+            "municipality": "Collingwood",
+            "province": "",
+            "mls_zone": "",
+            "postal_code": "",
+            "ward": "",
+            "country": "Country"
+        },
+        "project_attributes": {
+            "crane_number": "0",
+            "site_area": "",
+            "storeys": "",
+            "underground_levels": ""
+        },
+        "units": {
+            "total_number_of_units": "10",
+            "building_units": "",
+            "affordable_units": "",
+            "residential_units": "",
+            "condo_units": "",
+            "freehold_units": ""
+        },
+        "developer": {
+            "name": "Sunvale Homes",
+            "logo": "",
+            "location": "",
+            "url": "Sunvale-Homes"
+        },
+        "details": {
+            "projectImageURLs": [
+                ""
+            ],
+            "news": [
+                {
+                    "_id": "670682968a167e45146ba952",
+                    "Title": ""
+                }
+            ]
+        },
+        "ground_floor_area": {
+            "residential_gfa_sq_meters": "",
+            "office_gfa_sq_meters": "1847",
+            "commerical_gfa_sq_meters": "",
+            "industrial_gfa_sq_meters": "",
+            "retail_gfa_sq_meters": "",
+            "institutional_gfa_sq_meters": ""
+        },
+        "parking": {
+            "total_vehicular_parking": "",
+            "office_parking": "",
+            "residential_parking": "",
+            "industrial_parking": "",
+            "visitor_parking": "",
+            "institutional_other_parking": "",
+            "retail_parking": "",
+            "bike_parking": ""
+        },
+        "access_and_services": {
+            "road_access": "",
+            "mass_timber": "",
+            "municipal_water": "",
+            "municipal_sanitary_sewers": "",
+            "green_standards": "",
+            "leed_certified": "",
+            "passive_home_certified": "",
+            "other_septic": ""
+        },
+        "minimum_setbacks": {
+            "front_lot_line_direction": "",
+            "front_lot_line_existing": "",
+            "front_lot_line_proposed": "",
+            "side_lot_line1_direction": "",
+            "side_lot_line1_existing": "",
+            "side_lot_line1_proposed": "",
+            "rear_lot_line_direction": "",
+            "rear_lot_line_existing": "",
+            "rear_lot_line_proposed": "",
+            "side_lot_line2_direction": "",
+            "side_lot_line2_existing": "",
+            "side_lot_line2_proposed": ""
+        },
+        "applications": {
+            "submission_dates": "45213",
+            "devapp_urls": "",
+            "application_types": "",
+            "approval_status": "",
+            "approval_sub_status": "",
+            "application_nos": "",
+            "council_decision_urls": "",
+            "council_decision_dates": "",
+            "appeal_received_dates": "",
+            "mzo_nos": "",
+            "mzo_dates": "",
+            "olt_urls": "",
+            "olt_nos": "",
+            "olt_decision_dates": ""
+        },
+        "permits": {
+            "demolition_application_date": "",
+            "demolition_issue_date": "",
+            "demolition_closing_date": "",
+            "demolition_permit_number": "",
+            "shoring_application_date": "",
+            "shoring_issue_date": "",
+            "shoring_closing_date": "",
+            "shoring_permit_number": "",
+            "new_building_application_date": "",
+            "new_building_issue_date": "",
+            "new_building_closing_date": "",
+            "new_building_permit_number": ""
+        },
+        "forums": {
+            "forum_project": "",
+            "forum_real_estate": "",
+            "forum_transit": ""
+        },
+        "type": [
+            "Townhouse",
+            "Row"
+        ],
+        "_id": "670682968a167e45146ba951",
+        "project_id": "15410",
+        "project_stub": "poplar-trails-townhouse-collingwood-15410",
+        "project_url": "Poplar Trails",
+        "project_image": "",
+        "project_image_300": "",
+        "project_image_600": "",
+        "project_gpt_description": "Discover modern living at Poplar Trails, an exceptional townhouse community by Sunvale Homes, located at 66 Kirby Avenue in the picturesque city of Collingwood, Canada. Perfectly positioned to offer the best of urban convenience and natural beauty, these townhouses blend contemporary design with functional spaces. Experience the charm of Collingwood's vibrant lifestyle, with access to local amenities, shopping, dining, and recreational activities. Poplar Trails is designed to cater to diverse lifestyles, providing a welcoming community for families, professionals, and retirees alike. Embrace the opportunity to own a stunning townhouse in one of Canada's most desirable locations. Explore life at Poplar Trails and make it your perfect home today!",
+        "locality": "Collingwood",
+        "isactive": true,
+        "__v": 0,
+        "pricing": {
+            "min_price": 679900,
+            "max_price": 799900,
+            "avg_price": 739279,
+            "currency": "CAD",
+            "last_updated": "2025-08-10T07:51:31.147Z"
+        }
+    },
+    {
+        "information": {
+            "title": "Artisan Townhomes Mississauga",
+            "category": "Townhouse",
+            "application_date": "44790",
+            "construction_status": "",
+            "completion_date": "NA",
+            "updated_date": "45505",
+            "master_project": "",
+            "replacement_project": "",
+            "avg_price": 1462450,
+            "max_price": 1339900,
+            "min_price": 1229900
+        },
+        "description": {
+            "project_description": ""
+        },
+        "project_information": {
+            "geoJSON": {
+                "coordinates": [
+                    -79.6920019,
+                    43.575578
+                ],
+                "type": "Point"
+            },
+            "street_address": "1707 Barbertown Road ",
+            "city": "Mississauga",
+            "municipality": "Mississauga",
+            "province": "",
+            "mls_zone": "",
+            "postal_code": "",
+            "ward": "",
+            "country": "Country"
+        },
+        "project_attributes": {
+            "crane_number": "0",
+            "site_area": "",
+            "storeys": "",
+            "underground_levels": ""
+        },
+        "units": {
+            "total_number_of_units": "45",
+            "building_units": "",
+            "affordable_units": "",
+            "residential_units": "",
+            "condo_units": "",
+            "freehold_units": ""
+        },
+        "developer": {
+            "name": "Centra Homes",
+            "logo": "",
+            "location": "",
+            "url": "Centra-Homes"
+        },
+        "details": {
+            "projectImageURLs": [
+                ""
+            ],
+            "news": [
+                {
+                    "_id": "670682968a167e45146ba954",
+                    "Title": ""
+                }
+            ]
+        },
+        "ground_floor_area": {
+            "residential_gfa_sq_meters": "",
+            "office_gfa_sq_meters": "2818",
+            "commerical_gfa_sq_meters": "",
+            "industrial_gfa_sq_meters": "",
+            "retail_gfa_sq_meters": "",
+            "institutional_gfa_sq_meters": ""
+        },
+        "parking": {
+            "total_vehicular_parking": "",
+            "office_parking": "",
+            "residential_parking": "",
+            "industrial_parking": "",
+            "visitor_parking": "",
+            "institutional_other_parking": "",
+            "retail_parking": "",
+            "bike_parking": ""
+        },
+        "access_and_services": {
+            "road_access": "",
+            "mass_timber": "",
+            "municipal_water": "",
+            "municipal_sanitary_sewers": "",
+            "green_standards": "",
+            "leed_certified": "",
+            "passive_home_certified": "",
+            "other_septic": ""
+        },
+        "minimum_setbacks": {
+            "front_lot_line_direction": "",
+            "front_lot_line_existing": "",
+            "front_lot_line_proposed": "",
+            "side_lot_line1_direction": "",
+            "side_lot_line1_existing": "",
+            "side_lot_line1_proposed": "",
+            "rear_lot_line_direction": "",
+            "rear_lot_line_existing": "",
+            "rear_lot_line_proposed": "",
+            "side_lot_line2_direction": "",
+            "side_lot_line2_existing": "",
+            "side_lot_line2_proposed": ""
+        },
+        "applications": {
+            "submission_dates": "44790",
+            "devapp_urls": "",
+            "application_types": "",
+            "approval_status": "",
+            "approval_sub_status": "",
+            "application_nos": "",
+            "council_decision_urls": "",
+            "council_decision_dates": "",
+            "appeal_received_dates": "",
+            "mzo_nos": "",
+            "mzo_dates": "",
+            "olt_urls": "",
+            "olt_nos": "",
+            "olt_decision_dates": ""
+        },
+        "permits": {
+            "demolition_application_date": "",
+            "demolition_issue_date": "",
+            "demolition_closing_date": "",
+            "demolition_permit_number": "",
+            "shoring_application_date": "",
+            "shoring_issue_date": "",
+            "shoring_closing_date": "",
+            "shoring_permit_number": "",
+            "new_building_application_date": "",
+            "new_building_issue_date": "",
+            "new_building_closing_date": "",
+            "new_building_permit_number": ""
+        },
+        "forums": {
+            "forum_project": "",
+            "forum_real_estate": "",
+            "forum_transit": ""
+        },
+        "type": [
+            "Townhouse",
+            "Row"
+        ],
+        "_id": "670682968a167e45146ba953",
+        "project_id": "14916",
+        "project_stub": "artisan-towns-townhouse-mississauga-14916",
+        "project_url": "Artisan Towns",
+        "project_image": "https://cdn.skyrisecities.com/sites/default/files/images/projects/48235/48235-144885.jpeg",
+        "project_image_300": "",
+        "project_image_600": "",
+        "project_gpt_description": "Discover the charm of Artisan Townhomes Mississauga a premium townhouse community developed by Centra Homes. Nestled at 1707 Barbertown Road in the heart of Mississauga, Canada, these townhouses blend modern elegance with artisan craftsmanship. Experience the perfect harmony of urban convenience and serene living in a vibrant neighborhood. Each meticulously designed townhouse offers innovative layouts and high-quality finishes, ensuring comfort and style. Artisan Towns is ideally located close to schools, shopping centers, and recreational facilities, making it the perfect choice for families and professionals alike. Embrace a sophisticated lifestyle in Mississauga’s newest residential gem. Explore Artisan Townhomes Mississauga today and find your dream home in this sought-after Canadian community.",
+        "locality": "Mississauga",
+        "isactive": true,
+        "__v": 0,
+        "seoDescription": "Embrace a sophisticated lifestyle in Mississauga’s newest residential gem. Explore Artisan Townhomes Mississauga today and find your dream home in Canada.",
+        "seoH1": "Artisan Townhomes Mississauga",
+        "seoKeywords": "Artisan Townhomes Mississauga",
+        "seoTitle": "Artisan Townhomes Mississauga",
+        "pricing": {
+            "min_price": 1229900,
+            "max_price": 1339900,
+            "avg_price": 1462450,
+            "currency": "CAD",
+            "last_updated": "2025-08-10T07:51:31.352Z"
+        }
+    },
+    {
+        "information": {
+            "title": "Oakridge Meadows",
+            "category": "Townhouse",
+            "application_date": "44282",
+            "construction_status": "",
+            "completion_date": "NA",
+            "updated_date": "45505",
+            "master_project": "",
+            "replacement_project": "",
+            "avg_price": 1392400,
+            "max_price": 1469990,
+            "min_price": 1279990
+        },
+        "description": {
+            "project_description": ""
+        },
+        "project_information": {
+            "geoJSON": {
+                "coordinates": [
+                    -79.4060561,
+                    43.9468355
+                ],
+                "type": "Point"
+            },
+            "street_address": "10 William Logan Drive",
+            "city": "Richmond Hill",
+            "municipality": "Richmond Hill",
+            "province": "",
+            "mls_zone": "",
+            "postal_code": "",
+            "ward": "",
+            "country": "Country"
+        },
+        "project_attributes": {
+            "crane_number": "1",
+            "site_area": "",
+            "storeys": "",
+            "underground_levels": ""
+        },
+        "units": {
+            "total_number_of_units": "42",
+            "building_units": "",
+            "affordable_units": "",
+            "residential_units": "",
+            "condo_units": "",
+            "freehold_units": ""
+        },
+        "developer": {
+            "name": "CountryWide Homes",
+            "logo": "",
+            "location": "",
+            "url": "CountryWide-Homes"
+        },
+        "details": {
+            "projectImageURLs": [
+                ""
+            ],
+            "news": [
+                {
+                    "_id": "670682968a167e45146ba956",
+                    "Title": ""
+                }
+            ]
+        },
+        "ground_floor_area": {
+            "residential_gfa_sq_meters": "",
+            "office_gfa_sq_meters": "1895",
+            "commerical_gfa_sq_meters": "",
+            "industrial_gfa_sq_meters": "",
+            "retail_gfa_sq_meters": "",
+            "institutional_gfa_sq_meters": ""
+        },
+        "parking": {
+            "total_vehicular_parking": "",
+            "office_parking": "",
+            "residential_parking": "",
+            "industrial_parking": "",
+            "visitor_parking": "",
+            "institutional_other_parking": "",
+            "retail_parking": "",
+            "bike_parking": ""
+        },
+        "access_and_services": {
+            "road_access": "",
+            "mass_timber": "",
+            "municipal_water": "",
+            "municipal_sanitary_sewers": "",
+            "green_standards": "",
+            "leed_certified": "",
+            "passive_home_certified": "",
+            "other_septic": ""
+        },
+        "minimum_setbacks": {
+            "front_lot_line_direction": "",
+            "front_lot_line_existing": "",
+            "front_lot_line_proposed": "",
+            "side_lot_line1_direction": "",
+            "side_lot_line1_existing": "",
+            "side_lot_line1_proposed": "",
+            "rear_lot_line_direction": "",
+            "rear_lot_line_existing": "",
+            "rear_lot_line_proposed": "",
+            "side_lot_line2_direction": "",
+            "side_lot_line2_existing": "",
+            "side_lot_line2_proposed": ""
+        },
+        "applications": {
+            "submission_dates": "44282",
+            "devapp_urls": "",
+            "application_types": "",
+            "approval_status": "",
+            "approval_sub_status": "",
+            "application_nos": "",
+            "council_decision_urls": "",
+            "council_decision_dates": "",
+            "appeal_received_dates": "",
+            "mzo_nos": "",
+            "mzo_dates": "",
+            "olt_urls": "",
+            "olt_nos": "",
+            "olt_decision_dates": ""
+        },
+        "permits": {
+            "demolition_application_date": "",
+            "demolition_issue_date": "",
+            "demolition_closing_date": "",
+            "demolition_permit_number": "",
+            "shoring_application_date": "",
+            "shoring_issue_date": "",
+            "shoring_closing_date": "",
+            "shoring_permit_number": "",
+            "new_building_application_date": "",
+            "new_building_issue_date": "",
+            "new_building_closing_date": "",
+            "new_building_permit_number": ""
+        },
+        "forums": {
+            "forum_project": "",
+            "forum_real_estate": "",
+            "forum_transit": ""
+        },
+        "type": [
+            "Townhouse",
+            "Row"
+        ],
+        "_id": "670682968a167e45146ba955",
+        "project_id": "14123",
+        "project_stub": "oakridge-meadows-townhouse-richmond-hill-14123",
+        "project_url": "Oakridge Meadows",
+        "project_image": "https://condos-images.s3.ap-southeast-1.amazonaws.com/realnet/14123.webp",
+        "project_image_300": "",
+        "project_image_600": "",
+        "project_gpt_description": "Discover the epitome of modern living at Oakridge Meadows, a luxurious townhouse community located at 10 William Logan Drive in the heart of Richmond Hill, Canada. Developed by the esteemed CountryWide Homes, Oakridge Meadows offers an exceptional blend of comfort and style. Each townhouse is meticulously designed to provide spacious living areas, high-end finishes, and a welcoming atmosphere. Situated in a prime location, residents can enjoy convenient access to local amenities, schools, and parks, making it an ideal choice for families and professionals alike. Experience unparalleled quality and a vibrant lifestyle at Oakridge Meadows, where every detail is crafted to perfection by CountryWide Homes. Explore your new home in Richmond Hill today!",
+        "locality": "Richmond Hill",
+        "isactive": true,
+        "__v": 0,
+        "pricing": {
+            "min_price": 1279990,
+            "max_price": 1469990,
+            "avg_price": 1392400,
+            "currency": "CAD",
+            "last_updated": "2025-08-10T07:51:31.722Z"
+        }
+    },
+    {
+        "information": {
+            "title": "Victoria Grand",
+            "category": "Townhouse",
+            "application_date": "45122",
+            "construction_status": "",
+            "completion_date": "NA",
+            "updated_date": "45505",
+            "master_project": "",
+            "replacement_project": "",
+            "avg_price": 1490690,
+            "max_price": 1489990,
+            "min_price": 1459990
+        },
+        "description": {
+            "project_description": ""
+        },
+        "project_information": {
+            "geoJSON": {
+                "coordinates": [
+                    -79.3514162,
+                    43.899177
+                ],
+                "type": "Point"
+            },
+            "street_address": "10348 Warden Avenue ",
+            "city": "Markham",
+            "municipality": "Markham",
+            "province": "",
+            "mls_zone": "",
+            "postal_code": "",
+            "ward": "",
+            "country": "Country"
+        },
+        "project_attributes": {
+            "crane_number": "1",
+            "site_area": "",
+            "storeys": "",
+            "underground_levels": ""
+        },
+        "units": {
+            "total_number_of_units": "20",
+            "building_units": "",
+            "affordable_units": "",
+            "residential_units": "",
+            "condo_units": "",
+            "freehold_units": ""
+        },
+        "developer": {
+            "name": "Aspen Ridge Homes",
+            "logo": "https://cdn.skyrisecities.com/sites/default/files/images/companies/7640/7640-23628.png",
+            "location": "",
+            "url": "Aspen-Ridge-Homes"
+        },
+        "details": {
+            "projectImageURLs": [
+                ""
+            ],
+            "news": [
+                {
+                    "_id": "670682968a167e45146ba958",
+                    "Title": ""
+                }
+            ]
+        },
+        "ground_floor_area": {
+            "residential_gfa_sq_meters": "",
+            "office_gfa_sq_meters": "2769",
+            "commerical_gfa_sq_meters": "",
+            "industrial_gfa_sq_meters": "",
+            "retail_gfa_sq_meters": "",
+            "institutional_gfa_sq_meters": ""
+        },
+        "parking": {
+            "total_vehicular_parking": "",
+            "office_parking": "",
+            "residential_parking": "",
+            "industrial_parking": "",
+            "visitor_parking": "",
+            "institutional_other_parking": "",
+            "retail_parking": "",
+            "bike_parking": ""
+        },
+        "access_and_services": {
+            "road_access": "",
+            "mass_timber": "",
+            "municipal_water": "",
+            "municipal_sanitary_sewers": "",
+            "green_standards": "",
+            "leed_certified": "",
+            "passive_home_certified": "",
+            "other_septic": ""
+        },
+        "minimum_setbacks": {
+            "front_lot_line_direction": "",
+            "front_lot_line_existing": "",
+            "front_lot_line_proposed": "",
+            "side_lot_line1_direction": "",
+            "side_lot_line1_existing": "",
+            "side_lot_line1_proposed": "",
+            "rear_lot_line_direction": "",
+            "rear_lot_line_existing": "",
+            "rear_lot_line_proposed": "",
+            "side_lot_line2_direction": "",
+            "side_lot_line2_existing": "",
+            "side_lot_line2_proposed": ""
+        },
+        "applications": {
+            "submission_dates": "45122",
+            "devapp_urls": "",
+            "application_types": "",
+            "approval_status": "",
+            "approval_sub_status": "",
+            "application_nos": "",
+            "council_decision_urls": "",
+            "council_decision_dates": "",
+            "appeal_received_dates": "",
+            "mzo_nos": "",
+            "mzo_dates": "",
+            "olt_urls": "",
+            "olt_nos": "",
+            "olt_decision_dates": ""
+        },
+        "permits": {
+            "demolition_application_date": "",
+            "demolition_issue_date": "",
+            "demolition_closing_date": "",
+            "demolition_permit_number": "",
+            "shoring_application_date": "",
+            "shoring_issue_date": "",
+            "shoring_closing_date": "",
+            "shoring_permit_number": "",
+            "new_building_application_date": "",
+            "new_building_issue_date": "",
+            "new_building_closing_date": "",
+            "new_building_permit_number": ""
+        },
+        "forums": {
+            "forum_project": "",
+            "forum_real_estate": "",
+            "forum_transit": ""
+        },
+        "type": [
+            "Townhouse",
+            "Row"
+        ],
+        "_id": "670682968a167e45146ba957",
+        "project_id": "15221",
+        "project_stub": "victoria-grand-townhouse-markham-15221",
+        "project_url": "Victoria Grand",
+        "project_image": "",
+        "project_image_300": "",
+        "project_image_600": "",
+        "project_gpt_description": "Discover the elegance of Victoria Grand, a stunning townhouse development by Aspen Ridge Homes, located at 10348 Warden Avenue in the vibrant city of Markham, Canada. These exquisitely designed townhomes offer modern living with luxurious finishes, providing the perfect blend of comfort and sophistication. Nestled in one of Markham's most sought-after neighborhoods, Victoria Grand promises a premium lifestyle with easy access to shopping, dining, parks, and top-rated schools. Experience unparalleled convenience and community living while enjoying the meticulous craftsmanship and contemporary design that Aspen Ridge Homes is renowned for. Make Victoria Grand your new home and embrace a life of distinction in Canada's thriving real estate market.",
+        "locality": "Markham",
+        "isactive": true,
+        "__v": 0,
+        "pricing": {
+            "min_price": 1459990,
+            "max_price": 1489990,
+            "avg_price": 1490690,
+            "currency": "CAD",
+            "last_updated": "2025-08-10T07:51:32.011Z"
+        }
+    },
+    {
+        "information": {
+            "title": "Vicinity",
+            "category": "Townhouse",
+            "application_date": "45423",
+            "construction_status": "",
+            "completion_date": "NA",
+            "updated_date": "45505",
+            "master_project": "",
+            "replacement_project": "",
+            "avg_price": 757538,
+            "max_price": 743990,
+            "min_price": 640990
+        },
+        "description": {
+            "project_description": ""
+        },
+        "project_information": {
+            "geoJSON": {
+                "coordinates": [
+                    -79.6327031,
+                    44.3353091
+                ],
+                "type": "Point"
+            },
+            "street_address": "620 Lockhart Road",
+            "city": "Barrie",
+            "municipality": "Barrie",
+            "province": "",
+            "mls_zone": "",
+            "postal_code": "",
+            "ward": "",
+            "country": "Country"
+        },
+        "project_attributes": {
+            "crane_number": "1",
+            "site_area": "",
+            "storeys": "",
+            "underground_levels": ""
+        },
+        "units": {
+            "total_number_of_units": "113",
+            "building_units": "",
+            "affordable_units": "",
+            "residential_units": "",
+            "condo_units": "",
+            "freehold_units": ""
+        },
+        "developer": {
+            "name": "Mattamy Homes",
+            "logo": "https://condos-images.s3.ap-southeast-1.amazonaws.com/mattamyhomes.png",
+            "location": "Toronto, CA",
+            "url": "Mattamy-Homes"
+        },
+        "details": {
+            "projectImageURLs": [
+                ""
+            ],
+            "news": [
+                {
+                    "_id": "670682968a167e45146ba95a",
+                    "Title": ""
+                }
+            ]
+        },
+        "ground_floor_area": {
+            "residential_gfa_sq_meters": "",
+            "office_gfa_sq_meters": "1997",
+            "commerical_gfa_sq_meters": "",
+            "industrial_gfa_sq_meters": "",
+            "retail_gfa_sq_meters": "",
+            "institutional_gfa_sq_meters": ""
+        },
+        "parking": {
+            "total_vehicular_parking": "",
+            "office_parking": "",
+            "residential_parking": "",
+            "industrial_parking": "",
+            "visitor_parking": "",
+            "institutional_other_parking": "",
+            "retail_parking": "",
+            "bike_parking": ""
+        },
+        "access_and_services": {
+            "road_access": "",
+            "mass_timber": "",
+            "municipal_water": "",
+            "municipal_sanitary_sewers": "",
+            "green_standards": "",
+            "leed_certified": "",
+            "passive_home_certified": "",
+            "other_septic": ""
+        },
+        "minimum_setbacks": {
+            "front_lot_line_direction": "",
+            "front_lot_line_existing": "",
+            "front_lot_line_proposed": "",
+            "side_lot_line1_direction": "",
+            "side_lot_line1_existing": "",
+            "side_lot_line1_proposed": "",
+            "rear_lot_line_direction": "",
+            "rear_lot_line_existing": "",
+            "rear_lot_line_proposed": "",
+            "side_lot_line2_direction": "",
+            "side_lot_line2_existing": "",
+            "side_lot_line2_proposed": ""
+        },
+        "applications": {
+            "submission_dates": "45423",
+            "devapp_urls": "",
+            "application_types": "",
+            "approval_status": "",
+            "approval_sub_status": "",
+            "application_nos": "",
+            "council_decision_urls": "",
+            "council_decision_dates": "",
+            "appeal_received_dates": "",
+            "mzo_nos": "",
+            "mzo_dates": "",
+            "olt_urls": "",
+            "olt_nos": "",
+            "olt_decision_dates": ""
+        },
+        "permits": {
+            "demolition_application_date": "",
+            "demolition_issue_date": "",
+            "demolition_closing_date": "",
+            "demolition_permit_number": "",
+            "shoring_application_date": "",
+            "shoring_issue_date": "",
+            "shoring_closing_date": "",
+            "shoring_permit_number": "",
+            "new_building_application_date": "",
+            "new_building_issue_date": "",
+            "new_building_closing_date": "",
+            "new_building_permit_number": ""
+        },
+        "forums": {
+            "forum_project": "",
+            "forum_real_estate": "",
+            "forum_transit": ""
+        },
+        "type": [
+            "Townhouse",
+            "Row"
+        ],
+        "_id": "670682968a167e45146ba959",
+        "project_id": "15300",
+        "project_stub": "vicinity-townhouse-barrie-15300",
+        "project_url": "Vicinity",
+        "project_image": "",
+        "project_image_300": "",
+        "project_image_600": "",
+        "project_gpt_description": "Discover Vicinity, a stunning townhouse development by the renowned Mattamy Homes, perfectly situated at 620 Lockhart Road in the vibrant city of Barrie, Canada. Designed for modern living, Vicinity offers a harmonious blend of style and convenience, making it the ideal choice for families and professionals alike. Located in a thriving community, residents enjoy easy access to local amenities, schools, and recreational facilities, enhancing their lifestyle with comfort and ease. Embrace the charm of Barrie while living in a home crafted with exceptional quality and attention to detail by Mattamy Homes. Explore Vicinity today and experience the perfect balance of urban living and serene surroundings. Your dream townhouse awaits at Vicinity, Barrie.",
+        "locality": "Barrie",
+        "isactive": true,
+        "__v": 0,
+        "pricing": {
+            "min_price": 640990,
+            "max_price": 743990,
+            "avg_price": 757538,
+            "currency": "CAD",
+            "last_updated": "2025-08-10T07:51:32.324Z"
+        }
+    },
+    {
+        "information": {
+            "title": "ParkHaus Urban Towns",
+            "category": "Townhouse",
+            "application_date": "45150",
+            "construction_status": "Pre-Construction",
+            "completion_date": "NA",
+            "updated_date": "45505",
+            "master_project": "",
+            "replacement_project": "",
+            "avg_price": 1403570,
+            "max_price": 1599900,
+            "min_price": 1244900
+        },
+        "description": {
+            "project_description": ""
+        },
+        "project_information": {
+            "geoJSON": {
+                "coordinates": [
+                    -79.4192291,
+                    43.7811164
+                ],
+                "type": "Point"
+            },
+            "street_address": "40 Hendon Avenue",
+            "city": "North York",
+            "municipality": "North York",
+            "province": "",
+            "mls_zone": "C7 - Toronto",
+            "postal_code": "",
+            "ward": "",
+            "country": "Country"
+        },
+        "project_attributes": {
+            "crane_number": "1.54",
+            "site_area": "",
+            "storeys": "4",
+            "underground_levels": ""
+        },
+        "units": {
+            "total_number_of_units": "30",
+            "building_units": "",
+            "affordable_units": "",
+            "residential_units": "",
+            "condo_units": "",
+            "freehold_units": ""
+        },
+        "developer": {
+            "name": "Matrix Development Group",
+            "logo": "https://condos-images.s3.ap-southeast-1.amazonaws.com/matrixdevelopmentgroup.png",
+            "location": "Hamilton",
+            "url": "Matrix-Development-Group"
+        },
+        "details": {
+            "projectImageURLs": [
+                ""
+            ],
+            "news": [
+                {
+                    "_id": "670682968a167e45146ba95c",
+                    "Title": ""
+                }
+            ]
+        },
+        "ground_floor_area": {
+            "residential_gfa_sq_meters": "",
+            "office_gfa_sq_meters": "1600",
+            "commerical_gfa_sq_meters": "",
+            "industrial_gfa_sq_meters": "",
+            "retail_gfa_sq_meters": "",
+            "institutional_gfa_sq_meters": ""
+        },
+        "parking": {
+            "total_vehicular_parking": "",
+            "office_parking": "",
+            "residential_parking": "",
+            "industrial_parking": "",
+            "visitor_parking": "",
+            "institutional_other_parking": "",
+            "retail_parking": "",
+            "bike_parking": ""
+        },
+        "access_and_services": {
+            "road_access": "",
+            "mass_timber": "",
+            "municipal_water": "",
+            "municipal_sanitary_sewers": "",
+            "green_standards": "",
+            "leed_certified": "",
+            "passive_home_certified": "",
+            "other_septic": ""
+        },
+        "minimum_setbacks": {
+            "front_lot_line_direction": "",
+            "front_lot_line_existing": "",
+            "front_lot_line_proposed": "",
+            "side_lot_line1_direction": "",
+            "side_lot_line1_existing": "",
+            "side_lot_line1_proposed": "",
+            "rear_lot_line_direction": "",
+            "rear_lot_line_existing": "",
+            "rear_lot_line_proposed": "",
+            "side_lot_line2_direction": "",
+            "side_lot_line2_existing": "",
+            "side_lot_line2_proposed": ""
+        },
+        "applications": {
+            "submission_dates": "45150",
+            "devapp_urls": "",
+            "application_types": "",
+            "approval_status": "",
+            "approval_sub_status": "",
+            "application_nos": "",
+            "council_decision_urls": "",
+            "council_decision_dates": "",
+            "appeal_received_dates": "",
+            "mzo_nos": "",
+            "mzo_dates": "",
+            "olt_urls": "",
+            "olt_nos": "",
+            "olt_decision_dates": ""
+        },
+        "permits": {
+            "demolition_application_date": "",
+            "demolition_issue_date": "",
+            "demolition_closing_date": "",
+            "demolition_permit_number": "",
+            "shoring_application_date": "",
+            "shoring_issue_date": "",
+            "shoring_closing_date": "",
+            "shoring_permit_number": "",
+            "new_building_application_date": "",
+            "new_building_issue_date": "",
+            "new_building_closing_date": "",
+            "new_building_permit_number": ""
+        },
+        "forums": {
+            "forum_project": "",
+            "forum_real_estate": "",
+            "forum_transit": ""
+        },
+        "type": [
+            "Townhouse",
+            "Stacked"
+        ],
+        "_id": "670682968a167e45146ba95b",
+        "project_id": "ON-HGH-2912",
+        "project_stub": "parkhaus-urban-towns-townhouse-north-york-ON-HGH-2912",
+        "project_url": "ParkHaus Urban Towns",
+        "project_image": "https://condos-images.s3.ap-southeast-1.amazonaws.com/realnet/ON-HGH-2912.webp",
+        "project_image_300": "",
+        "project_image_600": "",
+        "project_gpt_description": "Discover modern living at ParkHaus Urban Towns, an exclusive townhouse development by Matrix Development Group, located at 40 Hendon Avenue in the vibrant city of North York, Canada. These stylish townhomes offer a perfect blend of urban sophistication and suburban tranquility, providing residents with a premium lifestyle in one of North York's most sought-after neighborhoods. Each meticulously designed unit features contemporary architecture, luxurious finishes, and ample space for comfortable living. With easy access to local amenities, parks, and public transit, ParkHaus Urban Towns promises convenience and connectivity. Experience the best of both worlds at this remarkable address where urban living meets serene surroundings. Your dream home awaits at ParkHaus Urban Towns.",
+        "locality": "North York",
+        "isactive": true,
+        "__v": 0,
+        "pricing": {
+            "min_price": 1244900,
+            "max_price": 1599900,
+            "avg_price": 1403570,
+            "currency": "CAD",
+            "last_updated": "2025-08-10T07:51:32.538Z"
+        }
+    },
+    {
+        "information": {
+            "title": "Juniper Gate ",
+            "category": "Townhouse",
+            "application_date": "45425",
+            "construction_status": "",
+            "completion_date": "NA",
+            "updated_date": "45505",
+            "master_project": "",
+            "replacement_project": "",
+            "avg_price": 958240,
+            "max_price": 1010990,
+            "min_price": 899990
+        },
+        "description": {
+            "project_description": ""
+        },
+        "project_information": {
+            "geoJSON": {
+                "coordinates": [
+                    -79.8662856,
+                    43.6354362
+                ],
+                "type": "Point"
+            },
+            "street_address": "15651 10 Side Road ",
+            "city": "Halton Hills",
+            "municipality": "Halton Hills",
+            "province": "",
+            "mls_zone": "",
+            "postal_code": "",
+            "ward": "",
+            "country": "Country"
+        },
+        "project_attributes": {
+            "crane_number": "0",
+            "site_area": "",
+            "storeys": "",
+            "underground_levels": ""
+        },
+        "units": {
+            "total_number_of_units": "11",
+            "building_units": "",
+            "affordable_units": "",
+            "residential_units": "",
+            "condo_units": "",
+            "freehold_units": ""
+        },
+        "developer": {
+            "name": "Remington Homes",
+            "logo": "",
+            "location": "",
+            "url": "Remington-Homes"
+        },
+        "details": {
+            "projectImageURLs": [
+                ""
+            ],
+            "news": [
+                {
+                    "_id": "670682968a167e45146ba95e",
+                    "Title": ""
+                }
+            ]
+        },
+        "ground_floor_area": {
+            "residential_gfa_sq_meters": "",
+            "office_gfa_sq_meters": "1520",
+            "commerical_gfa_sq_meters": "",
+            "industrial_gfa_sq_meters": "",
+            "retail_gfa_sq_meters": "",
+            "institutional_gfa_sq_meters": ""
+        },
+        "parking": {
+            "total_vehicular_parking": "",
+            "office_parking": "",
+            "residential_parking": "",
+            "industrial_parking": "",
+            "visitor_parking": "",
+            "institutional_other_parking": "",
+            "retail_parking": "",
+            "bike_parking": ""
+        },
+        "access_and_services": {
+            "road_access": "",
+            "mass_timber": "",
+            "municipal_water": "",
+            "municipal_sanitary_sewers": "",
+            "green_standards": "",
+            "leed_certified": "",
+            "passive_home_certified": "",
+            "other_septic": ""
+        },
+        "minimum_setbacks": {
+            "front_lot_line_direction": "",
+            "front_lot_line_existing": "",
+            "front_lot_line_proposed": "",
+            "side_lot_line1_direction": "",
+            "side_lot_line1_existing": "",
+            "side_lot_line1_proposed": "",
+            "rear_lot_line_direction": "",
+            "rear_lot_line_existing": "",
+            "rear_lot_line_proposed": "",
+            "side_lot_line2_direction": "",
+            "side_lot_line2_existing": "",
+            "side_lot_line2_proposed": ""
+        },
+        "applications": {
+            "submission_dates": "45425",
+            "devapp_urls": "",
+            "application_types": "",
+            "approval_status": "",
+            "approval_sub_status": "",
+            "application_nos": "",
+            "council_decision_urls": "",
+            "council_decision_dates": "",
+            "appeal_received_dates": "",
+            "mzo_nos": "",
+            "mzo_dates": "",
+            "olt_urls": "",
+            "olt_nos": "",
+            "olt_decision_dates": ""
+        },
+        "permits": {
+            "demolition_application_date": "",
+            "demolition_issue_date": "",
+            "demolition_closing_date": "",
+            "demolition_permit_number": "",
+            "shoring_application_date": "",
+            "shoring_issue_date": "",
+            "shoring_closing_date": "",
+            "shoring_permit_number": "",
+            "new_building_application_date": "",
+            "new_building_issue_date": "",
+            "new_building_closing_date": "",
+            "new_building_permit_number": ""
+        },
+        "forums": {
+            "forum_project": "",
+            "forum_real_estate": "",
+            "forum_transit": ""
+        },
+        "type": [
+            "Townhouse",
+            "Row"
+        ],
+        "_id": "670682968a167e45146ba95d",
+        "project_id": "15429",
+        "project_stub": "juniper-gate--townhouse-halton-hills-15429",
+        "project_url": "Juniper Gate ",
+        "project_image": "",
+        "project_image_300": "",
+        "project_image_600": "",
+        "project_gpt_description": "Discover modern living at Juniper Gate, an exquisite townhouse development by Remington Homes, nestled in the scenic city of Halton Hills, Canada. Located at 15651 10 Side Road, Juniper Gate offers a perfect blend of comfort and convenience for families and professionals alike. Experience sophisticated design, spacious layouts, and high-quality finishes that make these townhouses truly stand out. Enjoy easy access to local amenities, parks, and schools, making it an ideal location for a vibrant lifestyle. Whether you're seeking a new home or an investment opportunity, Juniper Gate promises a fulfilling living experience in a welcoming community. Explore the beauty of Halton Hills and make Juniper Gate your new address today.",
+        "locality": "Halton Hills",
+        "isactive": true,
+        "__v": 0,
+        "pricing": {
+            "min_price": 899990,
+            "max_price": 1010990,
+            "avg_price": 958240,
+            "currency": "CAD",
+            "last_updated": "2025-08-10T07:51:32.818Z"
+        }
+    },
+    {
+        "information": {
+            "title": "Otterbein Woods",
+            "category": "Townhouse",
+            "application_date": "45390",
+            "construction_status": "Pre-Construction",
+            "completion_date": "NA",
+            "updated_date": "45505",
+            "master_project": "",
+            "replacement_project": "",
+            "avg_price": 574346,
+            "max_price": 639500,
+            "min_price": 512500
+        },
+        "description": {
+            "project_description": ""
+        },
+        "project_information": {
+            "geoJSON": {
+                "coordinates": [
+                    -80.4369663,
+                    43.4698052
+                ],
+                "type": "Point"
+            },
+            "street_address": "130 Otterbein Road",
+            "city": "Kitchener",
+            "municipality": "Kitchener",
+            "province": "",
+            "mls_zone": "",
+            "postal_code": "",
+            "ward": "",
+            "country": "Country"
+        },
+        "project_attributes": {
+            "crane_number": "1.4",
+            "site_area": "",
+            "storeys": "3",
+            "underground_levels": ""
+        },
+        "units": {
+            "total_number_of_units": "13",
+            "building_units": "",
+            "affordable_units": "",
+            "residential_units": "",
+            "condo_units": "",
+            "freehold_units": ""
+        },
+        "developer": {
+            "name": "Crescent Homes",
+            "logo": "",
+            "location": "",
+            "url": "Crescent-Homes"
+        },
+        "details": {
+            "projectImageURLs": [
+                ""
+            ],
+            "news": [
+                {
+                    "_id": "670682968a167e45146ba960",
+                    "Title": ""
+                }
+            ]
+        },
+        "ground_floor_area": {
+            "residential_gfa_sq_meters": "",
+            "office_gfa_sq_meters": "1369",
+            "commerical_gfa_sq_meters": "",
+            "industrial_gfa_sq_meters": "",
+            "retail_gfa_sq_meters": "",
+            "institutional_gfa_sq_meters": ""
+        },
+        "parking": {
+            "total_vehicular_parking": "",
+            "office_parking": "",
+            "residential_parking": "",
+            "industrial_parking": "",
+            "visitor_parking": "",
+            "institutional_other_parking": "",
+            "retail_parking": "",
+            "bike_parking": ""
+        },
+        "access_and_services": {
+            "road_access": "",
+            "mass_timber": "",
+            "municipal_water": "",
+            "municipal_sanitary_sewers": "",
+            "green_standards": "",
+            "leed_certified": "",
+            "passive_home_certified": "",
+            "other_septic": ""
+        },
+        "minimum_setbacks": {
+            "front_lot_line_direction": "",
+            "front_lot_line_existing": "",
+            "front_lot_line_proposed": "",
+            "side_lot_line1_direction": "",
+            "side_lot_line1_existing": "",
+            "side_lot_line1_proposed": "",
+            "rear_lot_line_direction": "",
+            "rear_lot_line_existing": "",
+            "rear_lot_line_proposed": "",
+            "side_lot_line2_direction": "",
+            "side_lot_line2_existing": "",
+            "side_lot_line2_proposed": ""
+        },
+        "applications": {
+            "submission_dates": "45390",
+            "devapp_urls": "",
+            "application_types": "",
+            "approval_status": "",
+            "approval_sub_status": "",
+            "application_nos": "",
+            "council_decision_urls": "",
+            "council_decision_dates": "",
+            "appeal_received_dates": "",
+            "mzo_nos": "",
+            "mzo_dates": "",
+            "olt_urls": "",
+            "olt_nos": "",
+            "olt_decision_dates": ""
+        },
+        "permits": {
+            "demolition_application_date": "",
+            "demolition_issue_date": "",
+            "demolition_closing_date": "",
+            "demolition_permit_number": "",
+            "shoring_application_date": "",
+            "shoring_issue_date": "",
+            "shoring_closing_date": "",
+            "shoring_permit_number": "",
+            "new_building_application_date": "",
+            "new_building_issue_date": "",
+            "new_building_closing_date": "",
+            "new_building_permit_number": ""
+        },
+        "forums": {
+            "forum_project": "",
+            "forum_real_estate": "",
+            "forum_transit": ""
+        },
+        "type": [
+            "Townhouse",
+            "Stacked"
+        ],
+        "_id": "670682968a167e45146ba95f",
+        "project_id": "HGH-3205",
+        "project_stub": "otterbein-woods-townhouse-kitchener-HGH-3205",
+        "project_url": "Otterbein Woods",
+        "project_image": "https://condos-images.s3.ap-southeast-1.amazonaws.com/realnet/HGH-3205.webp",
+        "project_image_300": "",
+        "project_image_600": "",
+        "project_gpt_description": "Discover the charm and convenience of Otterbein Woods, a premier townhouse development by Crescent Homes in the vibrant city of Kitchener, Canada. Located at 130 Otterbein Road, this exclusive community offers modern living spaces designed for comfort and style. Perfectly situated for access to local amenities, parks, and schools, Otterbein Woods is an ideal choice for families and professionals alike. Experience the blend of urban lifestyle and natural beauty in one of Kitchener's most sought-after neighborhoods. With its contemporary design and quality craftsmanship, Otterbein Woods promises a harmonious living environment. Explore your future home today and become part of a thriving community at Otterbein Woods.",
+        "locality": "Kitchener",
+        "isactive": true,
+        "__v": 0,
+        "pricing": {
+            "min_price": 512500,
+            "max_price": 639500,
+            "avg_price": 574346,
+            "currency": "CAD",
+            "last_updated": "2025-08-10T07:51:33.133Z"
+        }
+    },
+    {
+        "information": {
+            "title": "Brightwater Towns",
+            "category": "Townhouse",
+            "application_date": "44307",
+            "construction_status": "",
+            "completion_date": "NA",
+            "updated_date": "45505",
+            "master_project": "",
+            "replacement_project": "",
+            "avg_price": 1818230,
+            "max_price": 1899900,
+            "min_price": 1719900
+        },
+        "description": {
+            "project_description": ""
+        },
+        "project_information": {
+            "geoJSON": {
+                "coordinates": [
+                    -79.5877803,
+                    43.5467618
+                ],
+                "type": "Point"
+            },
+            "street_address": "70 Mississauga Road South ",
+            "city": "Mississauga",
+            "municipality": "Mississauga",
+            "province": "",
+            "mls_zone": "",
+            "postal_code": "",
+            "ward": "",
+            "country": "Country"
+        },
+        "project_attributes": {
+            "crane_number": "1",
+            "site_area": "",
+            "storeys": "",
+            "underground_levels": ""
+        },
+        "units": {
+            "total_number_of_units": "49",
+            "building_units": "",
+            "affordable_units": "",
+            "residential_units": "",
+            "condo_units": "",
+            "freehold_units": ""
+        },
+        "developer": {
+            "name": "Kilmer Group and Diamond Corp and DREAM and Fram Building Group and Slokker ",
+            "logo": "",
+            "location": "",
+            "url": "Kilmer-Group-and-Diamond-Corp-and-DREAM-and-Fram-Building-Group-and-Slokker-"
+        },
+        "details": {
+            "projectImageURLs": [
+                ""
+            ],
+            "news": [
+                {
+                    "_id": "670682968a167e45146ba962",
+                    "Title": ""
+                }
+            ]
+        },
+        "ground_floor_area": {
+            "residential_gfa_sq_meters": "",
+            "office_gfa_sq_meters": "2567",
+            "commerical_gfa_sq_meters": "",
+            "industrial_gfa_sq_meters": "",
+            "retail_gfa_sq_meters": "",
+            "institutional_gfa_sq_meters": ""
+        },
+        "parking": {
+            "total_vehicular_parking": "",
+            "office_parking": "",
+            "residential_parking": "",
+            "industrial_parking": "",
+            "visitor_parking": "",
+            "institutional_other_parking": "",
+            "retail_parking": "",
+            "bike_parking": ""
+        },
+        "access_and_services": {
+            "road_access": "",
+            "mass_timber": "",
+            "municipal_water": "",
+            "municipal_sanitary_sewers": "",
+            "green_standards": "",
+            "leed_certified": "",
+            "passive_home_certified": "",
+            "other_septic": ""
+        },
+        "minimum_setbacks": {
+            "front_lot_line_direction": "",
+            "front_lot_line_existing": "",
+            "front_lot_line_proposed": "",
+            "side_lot_line1_direction": "",
+            "side_lot_line1_existing": "",
+            "side_lot_line1_proposed": "",
+            "rear_lot_line_direction": "",
+            "rear_lot_line_existing": "",
+            "rear_lot_line_proposed": "",
+            "side_lot_line2_direction": "",
+            "side_lot_line2_existing": "",
+            "side_lot_line2_proposed": ""
+        },
+        "applications": {
+            "submission_dates": "44307",
+            "devapp_urls": "",
+            "application_types": "",
+            "approval_status": "",
+            "approval_sub_status": "",
+            "application_nos": "",
+            "council_decision_urls": "",
+            "council_decision_dates": "",
+            "appeal_received_dates": "",
+            "mzo_nos": "",
+            "mzo_dates": "",
+            "olt_urls": "",
+            "olt_nos": "",
+            "olt_decision_dates": ""
+        },
+        "permits": {
+            "demolition_application_date": "",
+            "demolition_issue_date": "",
+            "demolition_closing_date": "",
+            "demolition_permit_number": "",
+            "shoring_application_date": "",
+            "shoring_issue_date": "",
+            "shoring_closing_date": "",
+            "shoring_permit_number": "",
+            "new_building_application_date": "",
+            "new_building_issue_date": "",
+            "new_building_closing_date": "",
+            "new_building_permit_number": ""
+        },
+        "forums": {
+            "forum_project": "",
+            "forum_real_estate": "",
+            "forum_transit": ""
+        },
+        "type": [
+            "Townhouse",
+            "Row"
+        ],
+        "_id": "670682968a167e45146ba961",
+        "project_id": "14398",
+        "project_stub": "brightwater-towns-townhouse-mississauga-14398",
+        "project_url": "Brightwater Towns",
+        "project_image": "https://condos-images.s3.ap-southeast-1.amazonaws.com/No_Image.jpg",
+        "project_image_300": "",
+        "project_image_600": "",
+        "project_gpt_description": "Discover modern living at Brightwater Towns, a stunning townhouse development located at 70 Mississauga Road South in the vibrant city of Mississauga, Canada. Expertly crafted by renowned developers Kilmer Group, Diamond Corp, DREAM, Fram Building Group, and Slokker, Brightwater Towns offers a perfect blend of luxury and convenience. Nestled in a prime location, residents can enjoy easy access to local amenities, parks, and waterfront views. These thoughtfully designed townhouses provide a contemporary lifestyle with spacious layouts and premium finishes. Whether you're a young professional or a growing family, Brightwater Towns promises a vibrant community and an exceptional living experience. Explore the possibilities at Brightwater Towns today and elevate your lifestyle.",
+        "locality": "Mississauga",
+        "isactive": true,
+        "__v": 0,
+        "pricing": {
+            "min_price": 1719900,
+            "max_price": 1899900,
+            "avg_price": 1818230,
+            "currency": "CAD",
+            "last_updated": "2025-08-10T07:51:33.450Z"
+        }
+    },
+    {
+        "information": {
+            "title": "Juniper Gate ",
+            "category": "Townhouse",
+            "application_date": "45425",
+            "construction_status": "",
+            "completion_date": "NA",
+            "updated_date": "45505",
+            "master_project": "",
+            "replacement_project": "",
+            "avg_price": 1007990,
+            "max_price": 1014990,
+            "min_price": 998990
+        },
+        "description": {
+            "project_description": ""
+        },
+        "project_information": {
+            "geoJSON": {
+                "coordinates": [
+                    -79.8662856,
+                    43.6354362
+                ],
+                "type": "Point"
+            },
+            "street_address": "15651 10 Side Road ",
+            "city": "Halton Hills",
+            "municipality": "Halton Hills",
+            "province": "",
+            "mls_zone": "",
+            "postal_code": "",
+            "ward": "",
+            "country": "Country"
+        },
+        "project_attributes": {
+            "crane_number": "0",
+            "site_area": "",
+            "storeys": "",
+            "underground_levels": ""
+        },
+        "units": {
+            "total_number_of_units": "13",
+            "building_units": "",
+            "affordable_units": "",
+            "residential_units": "",
+            "condo_units": "",
+            "freehold_units": ""
+        },
+        "developer": {
+            "name": "Remington Homes",
+            "logo": "",
+            "location": "",
+            "url": "Remington-Homes"
+        },
+        "details": {
+            "projectImageURLs": [
+                ""
+            ],
+            "news": [
+                {
+                    "_id": "670682968a167e45146ba964",
+                    "Title": ""
+                }
+            ]
+        },
+        "ground_floor_area": {
+            "residential_gfa_sq_meters": "",
+            "office_gfa_sq_meters": "2047",
+            "commerical_gfa_sq_meters": "",
+            "industrial_gfa_sq_meters": "",
+            "retail_gfa_sq_meters": "",
+            "institutional_gfa_sq_meters": ""
+        },
+        "parking": {
+            "total_vehicular_parking": "",
+            "office_parking": "",
+            "residential_parking": "",
+            "industrial_parking": "",
+            "visitor_parking": "",
+            "institutional_other_parking": "",
+            "retail_parking": "",
+            "bike_parking": ""
+        },
+        "access_and_services": {
+            "road_access": "",
+            "mass_timber": "",
+            "municipal_water": "",
+            "municipal_sanitary_sewers": "",
+            "green_standards": "",
+            "leed_certified": "",
+            "passive_home_certified": "",
+            "other_septic": ""
+        },
+        "minimum_setbacks": {
+            "front_lot_line_direction": "",
+            "front_lot_line_existing": "",
+            "front_lot_line_proposed": "",
+            "side_lot_line1_direction": "",
+            "side_lot_line1_existing": "",
+            "side_lot_line1_proposed": "",
+            "rear_lot_line_direction": "",
+            "rear_lot_line_existing": "",
+            "rear_lot_line_proposed": "",
+            "side_lot_line2_direction": "",
+            "side_lot_line2_existing": "",
+            "side_lot_line2_proposed": ""
+        },
+        "applications": {
+            "submission_dates": "45425",
+            "devapp_urls": "",
+            "application_types": "",
+            "approval_status": "",
+            "approval_sub_status": "",
+            "application_nos": "",
+            "council_decision_urls": "",
+            "council_decision_dates": "",
+            "appeal_received_dates": "",
+            "mzo_nos": "",
+            "mzo_dates": "",
+            "olt_urls": "",
+            "olt_nos": "",
+            "olt_decision_dates": ""
+        },
+        "permits": {
+            "demolition_application_date": "",
+            "demolition_issue_date": "",
+            "demolition_closing_date": "",
+            "demolition_permit_number": "",
+            "shoring_application_date": "",
+            "shoring_issue_date": "",
+            "shoring_closing_date": "",
+            "shoring_permit_number": "",
+            "new_building_application_date": "",
+            "new_building_issue_date": "",
+            "new_building_closing_date": "",
+            "new_building_permit_number": ""
+        },
+        "forums": {
+            "forum_project": "",
+            "forum_real_estate": "",
+            "forum_transit": ""
+        },
+        "type": [
+            "Townhouse",
+            "Row"
+        ],
+        "_id": "670682968a167e45146ba963",
+        "project_id": "15428",
+        "project_stub": "juniper-gate--townhouse-halton-hills-15428",
+        "project_url": "Juniper Gate ",
+        "project_image": "",
+        "project_image_300": "",
+        "project_image_600": "",
+        "project_gpt_description": "Discover Juniper Gate, a stunning townhouse community by Remington Homes, situated at 15651 10 Side Road in the charming city of Halton Hills, Canada. This exquisite development offers modern living in a serene environment, perfect for families and professionals seeking a harmonious blend of comfort and style. With a commitment to quality craftsmanship, Juniper Gate townhouses feature contemporary designs, spacious layouts, and premium finishes. Enjoy the convenience of nearby amenities, parks, and schools, enhancing your lifestyle in this desirable location. Whether you're looking to invest or find your dream home, Juniper Gate promises a vibrant community experience in the heart of Halton Hills. Explore luxurious townhouse living at its finest with Juniper Gate by Remington Homes.",
+        "locality": "Halton Hills",
+        "isactive": true,
+        "__v": 0,
+        "pricing": {
+            "min_price": 998990,
+            "max_price": 1014990,
+            "avg_price": 1007990,
+            "currency": "CAD",
+            "last_updated": "2025-08-10T07:51:33.770Z"
+        }
+    },
+    {
+        "information": {
+            "title": "Sincerely, Acorn",
+            "category": "Townhouse",
+            "application_date": "44527",
+            "construction_status": "",
+            "completion_date": "NA",
+            "updated_date": "45505",
+            "master_project": "",
+            "replacement_project": "",
+            "avg_price": 1180420,
+            "max_price": 849990,
+            "min_price": 849990
+        },
+        "description": {
+            "project_description": ""
+        },
+        "project_information": {
+            "geoJSON": {
+                "coordinates": [
+                    -78.9298812,
+                    43.9210074
+                ],
+                "type": "Point"
+            },
+            "street_address": "665 Taunton Road",
+            "city": "Whitby",
+            "municipality": "Whitby",
+            "province": "",
+            "mls_zone": "",
+            "postal_code": "",
+            "ward": "",
+            "country": "Country"
+        },
+        "project_attributes": {
+            "crane_number": "0",
+            "site_area": "",
+            "storeys": "",
+            "underground_levels": ""
+        },
+        "units": {
+            "total_number_of_units": "9",
+            "building_units": "",
+            "affordable_units": "",
+            "residential_units": "",
+            "condo_units": "",
+            "freehold_units": ""
+        },
+        "developer": {
+            "name": "Acorn Developments",
+            "logo": "",
+            "location": "",
+            "url": "Acorn-Developments"
+        },
+        "details": {
+            "projectImageURLs": [
+                ""
+            ],
+            "news": [
+                {
+                    "_id": "670682968a167e45146ba966",
+                    "Title": ""
+                }
+            ]
+        },
+        "ground_floor_area": {
+            "residential_gfa_sq_meters": "",
+            "office_gfa_sq_meters": "2270",
+            "commerical_gfa_sq_meters": "",
+            "industrial_gfa_sq_meters": "",
+            "retail_gfa_sq_meters": "",
+            "institutional_gfa_sq_meters": ""
+        },
+        "parking": {
+            "total_vehicular_parking": "",
+            "office_parking": "",
+            "residential_parking": "",
+            "industrial_parking": "",
+            "visitor_parking": "",
+            "institutional_other_parking": "",
+            "retail_parking": "",
+            "bike_parking": ""
+        },
+        "access_and_services": {
+            "road_access": "",
+            "mass_timber": "",
+            "municipal_water": "",
+            "municipal_sanitary_sewers": "",
+            "green_standards": "",
+            "leed_certified": "",
+            "passive_home_certified": "",
+            "other_septic": ""
+        },
+        "minimum_setbacks": {
+            "front_lot_line_direction": "",
+            "front_lot_line_existing": "",
+            "front_lot_line_proposed": "",
+            "side_lot_line1_direction": "",
+            "side_lot_line1_existing": "",
+            "side_lot_line1_proposed": "",
+            "rear_lot_line_direction": "",
+            "rear_lot_line_existing": "",
+            "rear_lot_line_proposed": "",
+            "side_lot_line2_direction": "",
+            "side_lot_line2_existing": "",
+            "side_lot_line2_proposed": ""
+        },
+        "applications": {
+            "submission_dates": "44527",
+            "devapp_urls": "",
+            "application_types": "",
+            "approval_status": "",
+            "approval_sub_status": "",
+            "application_nos": "",
+            "council_decision_urls": "",
+            "council_decision_dates": "",
+            "appeal_received_dates": "",
+            "mzo_nos": "",
+            "mzo_dates": "",
+            "olt_urls": "",
+            "olt_nos": "",
+            "olt_decision_dates": ""
+        },
+        "permits": {
+            "demolition_application_date": "",
+            "demolition_issue_date": "",
+            "demolition_closing_date": "",
+            "demolition_permit_number": "",
+            "shoring_application_date": "",
+            "shoring_issue_date": "",
+            "shoring_closing_date": "",
+            "shoring_permit_number": "",
+            "new_building_application_date": "",
+            "new_building_issue_date": "",
+            "new_building_closing_date": "",
+            "new_building_permit_number": ""
+        },
+        "forums": {
+            "forum_project": "",
+            "forum_real_estate": "",
+            "forum_transit": ""
+        },
+        "type": [
+            "Townhouse",
+            "Row"
+        ],
+        "_id": "670682968a167e45146ba965",
+        "project_id": "14728",
+        "project_stub": "sincerely,-acorn-townhouse-whitby-14728",
+        "project_url": "Sincerely, Acorn",
+        "project_image": "",
+        "project_image_300": "",
+        "project_image_600": "",
+        "project_gpt_description": "Discover the elegance and charm of \"Sincerely, Acorn,\" a stunning townhouse development by Acorn Developments, located at 665 Taunton Road, Whitby, Canada. Perfectly blending modern design with comfort, these townhomes offer an exceptional living experience in a vibrant community. Enjoy spacious layouts and premium finishes, all crafted to reflect Acorn Developments' commitment to quality and innovation. Situated in the heart of Whitby, residents have easy access to local amenities, schools, and parks, making it an ideal choice for families and professionals alike. Choose \"Sincerely, Acorn\" for your next home and embrace a lifestyle of convenience and sophistication in one of Canada's most desirable towns. Explore the possibilities today and make Whitby your new home.",
+        "locality": "Whitby",
+        "isactive": true,
+        "__v": 0,
+        "pricing": {
+            "min_price": 849990,
+            "max_price": 849990,
+            "avg_price": 1180420,
+            "currency": "CAD",
+            "last_updated": "2025-08-10T07:51:34.102Z"
+        }
+    },
+    {
+        "information": {
+            "title": "Harris Gate",
+            "category": "Townhouse",
+            "application_date": "44324",
+            "construction_status": "",
+            "completion_date": "NA",
+            "updated_date": "45505",
+            "master_project": "",
+            "replacement_project": "",
+            "avg_price": 1594520,
+            "max_price": null,
+            "min_price": null
+        },
+        "description": {
+            "project_description": ""
+        },
+        "project_information": {
+            "geoJSON": {
+                "coordinates": [
+                    -3.1165616,
+                    51.5117202
+                ],
+                "type": "Point"
+            },
+            "street_address": "40 Harris Avenue<br>\r\n60 Harris Avenue",
+            "city": "Richmond Hill",
+            "municipality": "Richmond Hill",
+            "province": "",
+            "mls_zone": "",
+            "postal_code": "",
+            "ward": "",
+            "country": "Country"
+        },
+        "project_attributes": {
+            "crane_number": "0",
+            "site_area": "",
+            "storeys": "",
+            "underground_levels": ""
+        },
+        "units": {
+            "total_number_of_units": "16",
+            "building_units": "",
+            "affordable_units": "",
+            "residential_units": "",
+            "condo_units": "",
+            "freehold_units": ""
+        },
+        "developer": {
+            "name": "Metropole Developments and Ballantry Homes",
+            "logo": "",
+            "location": "",
+            "url": "Metropole-Developments-and-Ballantry-Homes"
+        },
+        "details": {
+            "projectImageURLs": [
+                ""
+            ],
+            "news": [
+                {
+                    "_id": "670682968a167e45146ba96a",
+                    "Title": ""
+                }
+            ]
+        },
+        "ground_floor_area": {
+            "residential_gfa_sq_meters": "",
+            "office_gfa_sq_meters": "2520",
+            "commerical_gfa_sq_meters": "",
+            "industrial_gfa_sq_meters": "",
+            "retail_gfa_sq_meters": "",
+            "institutional_gfa_sq_meters": ""
+        },
+        "parking": {
+            "total_vehicular_parking": "",
+            "office_parking": "",
+            "residential_parking": "",
+            "industrial_parking": "",
+            "visitor_parking": "",
+            "institutional_other_parking": "",
+            "retail_parking": "",
+            "bike_parking": ""
+        },
+        "access_and_services": {
+            "road_access": "",
+            "mass_timber": "",
+            "municipal_water": "",
+            "municipal_sanitary_sewers": "",
+            "green_standards": "",
+            "leed_certified": "",
+            "passive_home_certified": "",
+            "other_septic": ""
+        },
+        "minimum_setbacks": {
+            "front_lot_line_direction": "",
+            "front_lot_line_existing": "",
+            "front_lot_line_proposed": "",
+            "side_lot_line1_direction": "",
+            "side_lot_line1_existing": "",
+            "side_lot_line1_proposed": "",
+            "rear_lot_line_direction": "",
+            "rear_lot_line_existing": "",
+            "rear_lot_line_proposed": "",
+            "side_lot_line2_direction": "",
+            "side_lot_line2_existing": "",
+            "side_lot_line2_proposed": ""
+        },
+        "applications": {
+            "submission_dates": "44324",
+            "devapp_urls": "",
+            "application_types": "",
+            "approval_status": "",
+            "approval_sub_status": "",
+            "application_nos": "",
+            "council_decision_urls": "",
+            "council_decision_dates": "",
+            "appeal_received_dates": "",
+            "mzo_nos": "",
+            "mzo_dates": "",
+            "olt_urls": "",
+            "olt_nos": "",
+            "olt_decision_dates": ""
+        },
+        "permits": {
+            "demolition_application_date": "",
+            "demolition_issue_date": "",
+            "demolition_closing_date": "",
+            "demolition_permit_number": "",
+            "shoring_application_date": "",
+            "shoring_issue_date": "",
+            "shoring_closing_date": "",
+            "shoring_permit_number": "",
+            "new_building_application_date": "",
+            "new_building_issue_date": "",
+            "new_building_closing_date": "",
+            "new_building_permit_number": ""
+        },
+        "forums": {
+            "forum_project": "",
+            "forum_real_estate": "",
+            "forum_transit": ""
+        },
+        "type": [
+            "Townhouse",
+            "Row"
+        ],
+        "_id": "670682968a167e45146ba969",
+        "project_id": "13592",
+        "project_stub": "harris-gate-townhouse-richmond-hill-13592",
+        "project_url": "Harris Gate",
+        "project_image": "https://condos-images.s3.ap-southeast-1.amazonaws.com/realnet/13592.webp",
+        "project_image_300": "",
+        "project_image_600": "",
+        "project_gpt_description": "Discover modern living at Harris Gate, a stunning townhouse development located at 40 and 60 Harris Avenue in the vibrant city of Richmond Hill, Canada. Developed by the renowned Metropole Developments and Ballantry Homes, Harris Gate offers a perfect blend of style and convenience. Nestled in a thriving community, these townhouses offer contemporary designs and high-quality finishes, ideal for families and professionals alike. Enjoy the proximity to top-rated schools, shopping centers, and parks, making everyday living both comfortable and enjoyable. Embrace the opportunity to be part of Richmond Hill's growing landscape with Harris Gate, where urban sophistication meets suburban charm. Don't miss out on your chance to call this exceptional community home.",
+        "locality": "Richmond Hill",
+        "isactive": true,
+        "__v": 0,
+        "pricing": {
+            "min_price": null,
+            "max_price": null,
+            "avg_price": 1594520,
+            "currency": "CAD",
+            "last_updated": "2025-08-10T07:51:34.411Z"
+        }
+    }
+
+]
