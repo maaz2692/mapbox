@@ -15,6 +15,7 @@ import { MatDividerModule } from '@angular/material/divider';
 
 @Component({
   selector: 'app-filters',
+  standalone: true,
   imports: [CommonModule, MatMenuModule, MatButtonModule, MatCheckboxModule, MatDividerModule ],
   templateUrl: './filters.html',
   styleUrl: './filters.scss'

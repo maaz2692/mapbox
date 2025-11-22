@@ -6,8 +6,8 @@ import { ProjectsModel } from '../models/Projects.model';
   providedIn: 'root'
 })
 export class ProjectService {
-  private jsonUrl = 'assets/data/projects.json';
-  private MlsUrl = 'assets/data/mlszone.json';
+  private jsonUrl = '/projects.json';
+  private MlsUrl = '/mlszone.json';
 
   constructor(private http: HttpClient) { }
   private searchResult: any

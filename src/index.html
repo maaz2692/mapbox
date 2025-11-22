@@ -1,13 +1,29 @@
 <!doctype html>
 <html lang="en">
+
 <head>
   <meta charset="utf-8">
-  <title>MapBox</title>
+  <title>Condos and Homes Hub</title>
   <base href="/">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link rel="icon" type="image/png" href="./assets/images/icons/favicon.png">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" font-display="swap">
+  <link rel="preload" href="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v5.0.0/mapbox-gl-geocoder.css" as="style" onload="this.rel='stylesheet'">
+  <noscript><link rel="stylesheet" href="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v5.0.0/mapbox-gl-geocoder.css"></noscript>
+  
 </head>
+
 <body>
   <app-root></app-root>
+
+  <!-- Main JS -->
+  <script src="main.js" defer></script>
+  <script src="//code.tidio.co/jsuuj0c0f4i4gjhsdsksg0ouw2hsiyai.js"></script>
+  <!-- Mapbox and Geocoder scripts -->
+  <script src="https://api.mapbox.com/mapbox-gl-js/v2.14.1/mapbox-gl.js" async defer></script>
+  <script src="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v5.0.0/mapbox-gl-geocoder.min.js" async defer></script>
+
 </body>
+
 </html>
