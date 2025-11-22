@@ -13,9 +13,6 @@ import { ShimmerComponent } from "../shimmer/shimmer";
 import { MatIconModule } from '@angular/material/icon';
 import { Loader } from "../loader/loader";
 
-
-
-
 interface SelectOption {
   id: number;
   name: string;
@@ -34,19 +31,17 @@ interface SearchParams {
 
 @Component({
   selector: 'app-projects',
+  standalone: true,
   imports: [CommonModule, Filters, FormsModule, ProjectCards, ShimmerComponent, MatIconModule, Loader],
   templateUrl: './projects.html',
   styleUrls: ['./projects.scss']
 })
 
-
 export class Projects implements OnInit  {
   @ViewChildren(Filters)
   dropdowns!: QueryList<Filters>;
 
-  [x: string]: any;
-  // private zoomEndSubject = new Subject<void>();
-  // private moveEndSubject = new Subject<void>();
+  // [x: string]: any;
 
   isShimmerVisible: boolean = true;
   cards: any[] = Array(9).fill({});
@@ -69,23 +64,6 @@ export class Projects implements OnInit  {
   buildersAndDevelopers: Array<{ id: number; name: string }> = [];
   private cityIdCounter: number = 0;
   private developerCounter: number = 0;
-  
-
-  // types: Array<{ id: number; name: string }> = [
-  //   { id: 0, name: 'Apartment' },
-  //   { id: 1, name: 'Townhouse' },
-  //   { id: 2, name: 'Loft' },
-  //   { id: 3, name: 'Semi Detached' },
-  //   { id: 4, name: 'Detached' },
-  //   { id: 5, name: 'Single Family' },
-  //   { id: 6, name: 'Low Rise' },
-  //   { id: 7, name: 'High Rise' },
-  //   { id: 8, name: 'Mid Rise' },
-  //   { id: 9, name: 'Link' },
-  //   { id: 10, name: 'Row' },
-  //   { id: 11, name: 'Stacked' },
-  //   { id: 12, name: 'Quadraplex' },
-  // ];
 
   types: Array<{ id: number; name: string }> = [
     { id: 0, name: 'Condos' },
@@ -139,50 +117,30 @@ export class Projects implements OnInit  {
   canadaBoundary: any;
 
   constructor(
-    // private drawService: MapDrawService,
-    // private _data: DataService,
-    private projectService: ProjectService,
-    // private appComponent: AppComponent,
-    // private projectService: ProjectService,
-    // private router: Router,
-    // private route: ActivatedRoute,
+    private ProjectService: ProjectService,
     private navigationService: NavigationService,
-    // private meta: Meta, private titleService: Title
-
   ) {
-    // this.appComponent.displayFooter = false;
   }
 
   async ngOnInit() {
-    // this.setTitleAndMeta();
-    this.isLoading = true;
-    // await this.getBuilders();
-    // this.typeSelection = this._data.getType();
-    // this.citySelection = this._data.getCity();
+    this.isLoading = false;
     await this.getAllProjects();
 
     this.getMLSZones();
-    // this.getFavProject();
 
-    this.searchResult = this.projectService.getSearchResult();
+    this.searchResult = this.ProjectService.getSearchResult();
     if (this.searchResult == null) {
     } else {
       this.params.search = this.searchResult.text;
       this.search();
     }
   }
-  // setTitleAndMeta() {
-  //   this.meta.updateTag({ name: 'title', content: 'Artistic Pre-construction Projects - Condos Homes & Hub' });
-  //   this.meta.updateTag({ name: 'description', content: ' At Condos Homes & Hub, we have multiple pre-constructed projects that you can construct like your dream home, we have projects from all over the world.' });
-  // }
-
   Drawer() {
     this.toggleDrawer = !this.toggleDrawer;
   }
 
   async toggleSwitch() {
     if (!this.isChecked) {
-      // this.getFavProject();
     }
     this.isChecked = !this.isChecked;
     await this.resetFilters();
@@ -245,22 +203,13 @@ export class Projects implements OnInit  {
     rawFile.send(null);
   }
 
-  // getFavProject() {
-  //   const storedProjects = localStorage.getItem('favoriteProjects');
-  //   if (storedProjects) {
-  //     this.favProjects = this.allProjects.filter((project) =>
-  //       storedProjects.includes(project.project_stub)
-  //     );
-  //     this.favouriteAllProjects = [...this.favProjects];
-  //   }
-  // }
-
   shimmerCompleteHandler() {}
 
   async getAllProjects() {
     return new Promise<void>((resolve, reject) => {
-      this.projectService.getProjects().subscribe(data => {
+      this.ProjectService.getProjects().subscribe(data => {
         this.allProjects = data;
+        console.log("projects", this.allProjects)
         if(this.allProjects.length <= 0){
           this.noProjects = true
           this.projectAvaliable = true
@@ -288,23 +237,6 @@ export class Projects implements OnInit  {
       this.setMap();
     });
   }
-
-  // async getBuilders(): Promise<void> {
-  //   let counter = 0;
-  //   try {
-  //     this.developer = await this._data.getBuilders();
-  //     if (this.developer && this.developer.length) {
-  //       this.developer.forEach((developer) => {
-  //         this.buildersAndDevelopers.push({
-  //           id: counter++,
-  //           name: developer?.developer?.name,
-  //         });
-  //       });
-  //     } else {
-  //     }
-  //   } catch (error) {}
-  // }
-
   async getProjectByBounds(bounds: any) {
     this.isShimmerVisible = true;
     this.isLoading = true;
@@ -486,7 +418,7 @@ if (mapContainer) {
               const geometry = features[0].geometry as GeoJSON.Point;
               map.easeTo({
                 center: geometry.coordinates as [number, number],
-                zoom: (zoom ?? 10) + 1,
+                zoom: (zoom ?? 2) + 1,
               });
             });
           }
@@ -786,7 +718,7 @@ if (mapContainer) {
   }
 
 getMLSZones() {
-  this.projectService.getMlsZone().subscribe(data => {
+  this.ProjectService.getMlsZone().subscribe(data => {
     this.mlsZones = data;
   });
 }

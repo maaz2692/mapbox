@@ -5,6 +5,8 @@
   width: 100%;
   overflow: hidden;
   max-height: 200px;
+    background-color: #ffffff;
+
 
   .label {
     font-size: 16px;
@@ -30,6 +32,7 @@
 }
 ::ng-deep .mat-mdc-menu-content {
   padding-right: 18px !important;
+  background-color: #ffffff;
 }
 ::ng-deep .mat-mdc-menu-panel {
   max-height: 320px !important;

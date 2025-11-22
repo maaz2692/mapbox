@@ -1,1 +1,390 @@
+// Custom Theming for Angular Material
+// For more information: https://material.angular.io/guide/theming
+@use "@angular/material" as mat;
+// Plus imports for other components in your app.
+
+// Include the common styles for Angular Material. We include this here so that you only
+// have to load a single css file for Angular Material in your app.
+// Be sure that you only ever include this mixin once!
+@include mat.core();
+
+// Define the palettes for your theme using the Material Design palettes available in palette.scss
+// (imported above). For each palette, you can optionally specify a default, lighter, and darker
+// hue. Available color palettes: https://material.io/design/color/
+// $mo-mirza-frontend-primary: mat.define-palette(mat.$indigo-palette);
+// $mo-mirza-frontend-accent: mat.define-palette(mat.$pink-palette, A200, A100, A400);
+
+// The warn palette is optional (defaults to red).
+// $mo-mirza-frontend-warn: mat.define-palette(mat.$red-palette);
+
+// Create the theme object. A theme consists of configurations for individual
+// theming systems such as "color" or "typography".
+// $mo-mirza-frontend-theme: mat.define-light-theme(
+//     (
+//         color: (
+//             primary: $mo-mirza-frontend-primary,
+//             accent: $mo-mirza-frontend-accent,
+//             warn: $mo-mirza-frontend-warn
+//         )
+//     )
+// );
+
+// Include theme styles for core and each component used in your app.
+// Alternatively, you can import and @include the theme mixins for each component
+// that you are using.
+// @include mat.all-component-themes($mo-mirza-frontend-theme);
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('/assets/fonts/Montserrat-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: 'Montserrat';
+    src: url('/assets/fonts/Montserrat-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: 'Montserrat';
+    src: url('/assets/fonts/Montserrat-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: 'Montserrat';
+    src: url('/assets/fonts/Montserrat-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: 'Montserrat';
+    src: url('/assets/fonts/Montserrat-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: 'Montserrat';
+    src: url('/assets/fonts/Montserrat-ExtraBold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: 'Montserrat';
+    src: url('/assets/fonts/Montserrat-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+
 /* You can add global styles to this file, and also import other style files */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    font-family: "Montserrat", sans-serif !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    height: 100%;
+    // overflow: hidden;
+}
+
+a,
+button {
+    cursor: pointer !important;
+    text-decoration: none !important;
+}
+
+.iti--container{
+    
+    @media(max-width:768px){
+        width: inherit !important;
+        // height: 200px;
+    }
+    
+}
+.mapboxgl-ctrl-geocoder {
+
+    width: 100%!important;
+    max-width: 100%!important;
+}
+
+.form-check-input:checked {
+    background-color: #9b8247 !important;
+    border-color: #9b8247 !important;
+}
+
+.form-check-input:focus {
+    box-shadow: none !important;
+}
+
+.accordion-button::after {
+    filter: invert(52%) sepia(51%) saturate(425%) hue-rotate(4deg) brightness(90%) contrast(82%) !important;
+}
+
+input[type="time"]::-webkit-calendar-picker-indicator {
+    filter: invert(52%) sepia(51%) saturate(425%) hue-rotate(4deg) brightness(90%) contrast(82%) !important;
+    width: 21px;
+    height: 21px;
+}
+input[type="date"]::-webkit-calendar-picker-indicator {
+    filter: invert(52%) sepia(51%) saturate(425%) hue-rotate(4deg) brightness(90%) contrast(82%) !important;
+    width: 21px;
+    height: 21px;
+}
+
+select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background: transparent;
+    background-image: url("./assets/images/icons/down-arrow.svg");
+    background-repeat: no-repeat;
+    background-position-x: 96%;
+    background-position-y: 55%;
+}
+
+// Colors Style Classes Starts
+
+.primary-color {
+    color: #191c40;
+}
+
+  /* New CSS class to prevent scrolling */
+  .no-scroll {
+    overflow: hidden;
+  }
+
+.primary-light-color {
+    color: #0a1237;
+}
+
+.primary-light-background-color {
+    background-color: #0a1237;
+}
+
+.primary-background-color {
+    background-color: #191c40;
+}
+
+.secondary-color {
+    color: #9b8247;
+}
+.secondary-background-color {
+    background-color: #9b8247;
+    color: white;
+}
+.tertiary-background-color{
+    background-color: #ffffff;
+    color: black;
+
+}
+
+.secondary-light-color {
+    color: #b29758;
+}
+
+.secondary-light-background-color {
+    background-color: #b29758;
+}
+
+.black-color {
+    color: #212529;
+}
+
+.dark-grey-color {
+    color: #656565;
+}
+
+.light-grey-color {
+    color: #f5f5f5;
+}
+
+.white-color {
+    color: #ffffff;
+}
+
+.error-color {
+    color: #be2908;
+}
+.error {
+    color: red;
+    font-size: 0.875em;
+    margin-top: 5px;
+  }
+
+.success-color {
+    color: #08be3c;
+}
+// Colors Style Classes Ends
+
+// Global Font Style Classes Starts
+
+.header-main-heading {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 72px;
+    margin-top: -50px;
+}
+
+.section-main-heading {
+    font-size: 40px;
+    line-height: 56px;
+    font-weight: 700;
+}
+
+.body-text {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.card-heading {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+.card-location-text {
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 600;
+}
+.card-body-text {
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 400;
+}
+
+.card-small-text {
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 16px;
+}
+
+.button-normal {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+}
+
+
+
+.newsletter-main-heading {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 60px;
+}
+
+.newsletter-second-heading {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 48px;
+}
+
+// Global Font Style Classes Ends
+@media (max-width: 1024px) {
+    .header-main-heading {
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 48px;
+    }
+
+    .section-main-heading {
+        font-size: 28px;
+        line-height: 42px;
+        font-weight: 700;
+        text-align: center;
+    }
+
+    .newsletter-main-heading {
+        font-size: 28px;
+        font-weight: 700;
+        line-height: 42px;
+    }
+    .newsletter-second-heading {
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 32px;
+    }
+    .body-text {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+    }
+    .button-normal {
+        font-size: 14px;
+        line-height: 20px;
+        font-weight: 500;
+    }
+}
+@media (max-width: 575px) {
+    .header-main-heading {
+        font-size: 28px;
+        font-weight: 700;
+        line-height: 42px;
+    }
+
+    .section-main-heading {
+        // padding: 0px 12px;
+        font-size: 24px;
+        line-height: 36px;
+        font-weight: 700;
+        text-align: center;
+    }
+
+    .newsletter-main-heading {
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 36px;
+    }
+    .newsletter-second-heading {
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 24px;
+    }
+    .body-text {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 20px;
+        text-align: center;
+    }
+    .button-normal {
+        font-size: 14px;
+        line-height: 20px;
+        font-weight: 500;
+    }
+
+}
+@media (max-width: 320px){
+    .header-main-heading {
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 42px;
+    }
+   
+}
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0;
+}
