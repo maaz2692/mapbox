@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
-import { Observable } from 'rxjs';
+import { map, Observable } from 'rxjs';
 import { ProjectsModel } from '../models/Projects.model';
 import { Developer } from '../models/developers.model';
 @Injectable({
@@ -17,6 +17,12 @@ export class ProjectService {
   getProjects(): Observable<ProjectsModel[]> {
     return this.http.get<ProjectsModel[]>(this.jsonUrl);
   }
+
+  getProjectByStub(stub: string): Observable<ProjectsModel | undefined> {
+  return this.http.get<ProjectsModel[]>(this.jsonUrl).pipe(
+    map((projects) => projects.find(p => p.project_stub === stub))
+  );
+}
 
   getBuilders(): Observable<Developer[]>{
     return this.http.get<Developer[]>(this.developerUrl)

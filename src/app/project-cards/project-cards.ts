@@ -24,6 +24,7 @@ export class ProjectCards implements OnInit {
 
   @Input() project!: ProjectsModel;
   ngOnInit() {
+    console.log(this.project.project_stub)
     const storedProjects = localStorage.getItem(this.localStorageKey);
     if (storedProjects) {
       if (storedProjects.includes(this.project.project_stub ?? "")) {
