@@ -23,11 +23,36 @@ Using Angular’s modular structure, the application ensures fast loading, smoot
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 20.3.5.
 
-##Clone the repository
+## Clone the repository
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/maaz2692/mapbox.git
 cd your-project
 ```
+## Create environment.ts and add your Mapbox API key
+Before running the project, create this file:
+
+src/environments/environment.ts
+```bash
+export const environment = {
+  production: false,
+  mapbox: {
+    accessToken: 'YOUR_MAPBOX_ACCESS_TOKEN_HERE'
+  }
+};
+```
+And for production build:
+src/environments/environment.prod.ts
+```bash
+export const environment = {
+  production: true,
+  mapbox: {
+    accessToken: 'YOUR_MAPBOX_ACCESS_TOKEN_HERE'
+  }
+};
+```
+
+You can get your key from:
+➡ https://account.mapbox.com/
 
 ## Development server
 
