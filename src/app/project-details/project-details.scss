@@ -1034,8 +1034,4 @@ input[type="search"]::-webkit-search-cancel-button {
     );
 }
 
-@media (max-width: 321px) {
-  ::ng-deep .iti input.iti__tel-input[type="tel"] {
-    width: 288px !important; // Use percentage to ensure it adapts to the screen size
-  }
-}
+
