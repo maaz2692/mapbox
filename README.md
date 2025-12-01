@@ -1,10 +1,41 @@
-# MapBox
+Mapbox Project Navigator
+
+Author: Maaz Mustafa
+
+Version: B
+
+Mapbox Project Navigator is a modern, interactive web application built to display real-estate project details using Mapbox GL JS.
+This project provides a seamless experience for users to explore properties, view high-quality images, navigate between project pages, and interact with an embedded dynamic map powered by Mapbox.
+
+The system fetches real project data from JSON sources and displays information such as:
+
+Project images
+
+Location coordinates
+
+City, province, and project metadata
+
+Detailed project pages
+
+SVG-based custom map markers
+
+Using Angular’s modular structure, the application ensures fast loading, smooth routing, clean UI, and maintainable code architecture.
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 20.3.5.
+
+##Clone the repository
+```bash
+git clone <your-repo-url>
+cd your-project
+```
 
 ## Development server
 
 To start a local development server, run:
+
+```bash
+npm install
+```
 
 ```bash
 ng serve
