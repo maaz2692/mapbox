@@ -1,10 +1,66 @@
-# MapBox
+Mapbox Project Navigator
+
+Author: Maaz Mustafa
+
+Version: B
+
+Mapbox Project Navigator is a modern, interactive web application built to display real-estate project details using Mapbox GL JS.
+This project provides a seamless experience for users to explore properties, view high-quality images, navigate between project pages, and interact with an embedded dynamic map powered by Mapbox.
+
+The system fetches real project data from JSON sources and displays information such as:
+
+Project images
+
+Location coordinates
+
+City, province, and project metadata
+
+Detailed project pages
+
+SVG-based custom map markers
+
+Using Angular’s modular structure, the application ensures fast loading, smooth routing, clean UI, and maintainable code architecture.
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 20.3.5.
+
+## Clone the repository
+```bash
+git clone https://github.com/maaz2692/mapbox.git
+cd your-project
+```
+## Create environment.ts and add your Mapbox API key
+Before running the project, create this file:
+
+src/environments/environment.ts
+```bash
+export const environment = {
+  production: false,
+  mapbox: {
+    accessToken: 'YOUR_MAPBOX_ACCESS_TOKEN_HERE'
+  }
+};
+```
+And for production build:
+src/environments/environment.prod.ts
+```bash
+export const environment = {
+  production: true,
+  mapbox: {
+    accessToken: 'YOUR_MAPBOX_ACCESS_TOKEN_HERE'
+  }
+};
+```
+
+You can get your key from:
+➡ https://account.mapbox.com/
 
 ## Development server
 
 To start a local development server, run:
+
+```bash
+npm install
+```
 
 ```bash
 ng serve
