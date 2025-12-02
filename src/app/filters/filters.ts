@@ -99,7 +99,6 @@ export class Filters implements OnInit, OnChanges {
       if (this.initialSelection) {
         this.selectInitialOption();
       }
-      // this.filter(''); // Reapply filter on option changes
     }
   }
 
